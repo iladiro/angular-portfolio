@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-4">
+      {{ label }}
+    </div>
+    <dl class="col-md-8">
+      <dt>
+        {{title}}
+      </dt>
+      <dd>
+        {{ description }}
+      </dd>
+      <ng-container *ngIf="github">
+        <dd>
+          <a [href]="github" class="text-black">
+            GITHUB
+          </a>
+        </dd>
+      </ng-container>
+    </dl>
+  </div>

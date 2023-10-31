@@ -1,0 +1,10 @@
+@import "./variables";
+
+.btn {
+    &-main-color {
+        background-color: $main-color;
+        &:hover {
+            background-color: darken($color: $main-color, $amount: 10%);
+        }
+    }
+}

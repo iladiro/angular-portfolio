@@ -1,0 +1,16 @@
+<section class="cv-section">
+    <div class="border-top border-bottom d-flex align-items-center gap-2 py-3 mb-3">
+      <div class="cv-section__icon rounded-circle bg-main-color d-flex align-items-center justify-content-center">
+        <i [class]="icon"></i>
+      </div>
+      <h2 class="text-uppercase mb-0">{{ sectionTitle }}</h2>
+    </div>  
+    <div *ngFor="let item of list">
+        <app-curriculum-item 
+            [title]="item.title" 
+            [label]="item.label" 
+            [description]="item.description" 
+            [github]="item.github">
+        </app-curriculum-item>
+    </div>
+</section> 

@@ -1,0 +1,21 @@
+<!-- Full screen modal -->
+<div class="modal customized-modal bg-white fade in" id="curriculumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content border-0">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+            <app-curriculum-block [sectionTitle]="educations.title" [icon]="educations.icon" [list]="educations.list"></app-curriculum-block>
+            <app-curriculum-block [sectionTitle]="worksexperience.title" [icon]="worksexperience.icon" [list]="worksexperience.list"></app-curriculum-block>
+            <app-curriculum-block [sectionTitle]="skills.title" [icon]="skills.icon" [list]="skills.list"></app-curriculum-block>
+            <app-curriculum-block [sectionTitle]="personalprojects.title" [icon]="personalprojects.icon" [list]="personalprojects.list"></app-curriculum-block>
+        </div>
+        <div class="text-center mt-4">
+          <a href="assets/pdf/cv-IlariaDiRosa.pdf" class="btn btn-lg text-uppercase btn-main-color" target="_blank">
+            <i class="fa fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+</div>

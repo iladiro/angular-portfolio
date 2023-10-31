@@ -15,9 +15,8 @@
         <p class="cd-timeline__description fw-light">
             {{ description }}
         </p>
-        <button type="button" class="text-uppercase fw-normal cd-timeline__link p-0 border-0" data-toggle="modal" :data-target=dataTarget>
+        <button *ngIf="linkText" type="button" class="text-uppercase fw-normal cd-timeline__link p-0 border-0" data-bs-toggle="modal" [attr.data-bs-target]="dataTarget">
             {{ linkText }}
         </button>
-        </div>
     </div>
 </div>

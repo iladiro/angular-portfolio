@@ -19,6 +19,9 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { HobbyComponent } from './components/hobby/hobby.component';
 import { PersonalProjectsComponent } from './components/personal-projects/personal-projects.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { CurriculumComponent } from './components/curriculum/curriculum.component';
+import { CurriculumBlockComponent } from './shared/curriculum-block/curriculum-block.component';
+import { CurriculumItemComponent } from './shared/curriculum-block/curriculum-item/curriculum-item.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     SidebarComponent,
     SkillsComponent,
     HobbyComponent,
-    PersonalProjectsComponent
+    PersonalProjectsComponent,
+    CurriculumComponent,
+    CurriculumBlockComponent,
+    CurriculumItemComponent
   ],
   imports: [
     CommonModule,

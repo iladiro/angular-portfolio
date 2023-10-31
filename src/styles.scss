@@ -1,29 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "./assets/stylesheets/helpers/custom-mixin";
 @import "./assets/stylesheets/helpers/variables";
+@import "./assets/stylesheets/helpers/bg";
+@import "./assets/stylesheets/helpers/btn";
+@import "./assets/stylesheets/helpers/text";
 
 body {
     overflow-x: hidden;
     background-color: #f9f8f4;
 }
-
-.bg-dark-grey {
-    background-color: $dark-grey;
-}
-
-.bg-main-color {
-    background-color: $main-color;
-}
-
-.text-dark-grey {
-    color: $dark-grey;
-}
-
-.text-main-color {
-    color: $main-color;
-}
-
-.text-secondary-color {
-    color: $secondary-color;
-}
+  

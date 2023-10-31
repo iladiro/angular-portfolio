@@ -69,6 +69,6 @@
         "subtitle": "...and download it",
         "description": "",
         "linkText": "view",
-        "dataTarget": "#curriculum"
+        "dataTarget": "#curriculumModal"
     }
 ]

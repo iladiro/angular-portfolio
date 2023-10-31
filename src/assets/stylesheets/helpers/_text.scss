@@ -1,0 +1,13 @@
+@import "./variables";
+
+.text {
+    &-dark-grey {
+        color: $dark-grey;
+    }
+    &-main-color {
+        color: $main-color;
+    }
+    &-secondary-color {
+        color: $secondary-color;
+    }
+}

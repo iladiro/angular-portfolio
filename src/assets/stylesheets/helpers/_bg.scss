@@ -1,0 +1,10 @@
+@import "./variables";
+
+.bg {
+    &-dark-grey {
+        background-color: $dark-grey;
+    }
+    &-main-color {
+        background-color: $main-color;
+    }
+}
