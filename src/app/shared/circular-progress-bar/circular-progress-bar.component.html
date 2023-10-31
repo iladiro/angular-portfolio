@@ -1,6 +1,24 @@
-<div class="text-center">
+<!-- <div class="text-center">
     <div class="circular-progress-bar"> 
         <div class="circular-progress-bar-values">{{ percentage }}%</div>         
     </div>
     <div class="circular-progress-bar-labels">{{ label }}</div> 
+</div> -->
+
+<div class="widget">
+    <div class="outer">
+        <div class="inner">
+            <span class="percentage fw-bold">{{percentage}}%</span>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160">
+        <defs>
+            <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#000"></stop>
+                <stop offset="100%" stop-color="#666"></stop>
+            </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
 </div>
