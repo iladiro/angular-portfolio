@@ -14,12 +14,11 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './views/home/home.component';
 import { SchoolEducationComponent } from './components/school-education/school-education.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
-import { NgChartsModule } from 'ng2-charts';
-import { DoughnutChartComponent } from './shared/doughnut-chart/doughnut-chart.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HobbyComponent } from './components/hobby/hobby.component';
 import { PersonalProjectsComponent } from './components/personal-projects/personal-projects.component';
+import { CircularProgressBarComponent } from './shared/circular-progress-bar/circular-progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -34,17 +33,16 @@ import { PersonalProjectsComponent } from './components/personal-projects/person
     HomeComponent,
     SchoolEducationComponent,
     WorkExperienceComponent,
-    DoughnutChartComponent,
     SidebarComponent,
     SkillsComponent,
     HobbyComponent,
-    PersonalProjectsComponent
+    PersonalProjectsComponent,
+    CircularProgressBarComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule,
-    NgChartsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
