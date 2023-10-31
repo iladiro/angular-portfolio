@@ -1,31 +1,29 @@
-{
-    "list": [
-        {
-            "id": "item-1",
-            "icon": "fa-solid fa-child",
-            "title": "16 February 1988",
-            "subtitle": "Born",
-            "description": "I was born in Milan February 16, 1988.",
-            "linkText": "",
-            "dataTarget": ""
-        },
-        {
-            "id": "item-2",
-            "icon": "fa-solid fa-graduation-cap",
-            "title": "From 2002 - 2007",
-            "subtitle": "Hight School",
-            "description": "I attended technical shool ITSOS Albert Steiner in Milan. It's a school of multimedia communication, the which main school subjects are: Photography, Cinema, Informatic, 3D Graphic and 2D Graphic. I've wanted to focus more on Information and Graphic subject school.",
-            "linkText": "",
-            "dataTarget": ""
-        },
-        {
-            "id": "item-3",
-            "icon": "fa-solid fa-book",
-            "title": "From September 2007 to June 2008",
-            "subtitle": "IT Course",
-            "description": "I attended a Website Course.",
-            "linkText": "",
-            "dataTarget": ""
-        }
-    ]
-}
+[
+    {
+        "id": "item-1",
+        "icon": "fa-solid fa-child",
+        "title": "16 February 1988",
+        "subtitle": "Born",
+        "description": "I was born in Milan February 16, 1988.",
+        "linkText": "",
+        "dataTarget": ""
+    },
+    {
+        "id": "item-2",
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "From 2002 - 2007",
+        "subtitle": "Hight School",
+        "description": "I attended technical shool ITSOS Albert Steiner in Milan. It's a school of multimedia communication, the which main school subjects are: Photography, Cinema, Informatic, 3D Graphic and 2D Graphic. I've wanted to focus more on Information and Graphic subject school.",
+        "linkText": "",
+        "dataTarget": ""
+    },
+    {
+        "id": "item-3",
+        "icon": "fa-solid fa-book",
+        "title": "From September 2007 to June 2008",
+        "subtitle": "IT Course",
+        "description": "I attended a Website Course.",
+        "linkText": "",
+        "dataTarget": ""
+    }
+]

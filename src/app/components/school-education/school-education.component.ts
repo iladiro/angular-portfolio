@@ -20,7 +20,7 @@ export class SchoolEducationComponent {
   list!: Schooleducation[];
 
   constructor() {
-    this.list = schooleducation.list;
+    this.list = schooleducation;
     console.log(this.list);
   }
 
