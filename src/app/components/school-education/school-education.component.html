@@ -1,0 +1,22 @@
+<section class="bg-white p-3">
+    <div class="container">
+      <app-section-title [icon]="'fa-solid fa-user'" [title]="'About me'"></app-section-title>
+      <div class="row align-items-start">
+        <div class="col-md-5 photo-frame text-center">
+          <img src="../../assets/images/me.jpg" class="photo-frame__img">
+        </div>
+        <div class="col-md-7 cd-timeline__col flex-grow-1">
+          <div *ngFor="let item of list">
+            <app-timeline-block 
+              [icon]="item.icon"
+              [title]="item.title" 
+              [subtitle]="item.subtitle" 
+              [description]="item.description" 
+              [linkText]="item.linkText" 
+              [dataTarget]="item.dataTarget">
+            </app-timeline-block>
+          </div>                    
+        </div>
+      </div>
+    </div>      
+  </section>

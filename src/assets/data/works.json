@@ -1,0 +1,68 @@
+{
+    "list": [
+        {
+            "id": "ilcrochetdili-modal",
+            "title": "Il Crochet di Ili",
+            "link": "https://ilcrochetdili.netlify.app/",
+            "image": "ilCrochetDili.png",
+            "description": "Sito web vetrina realizzato in Svelte",
+            "technologies": ["Svelte", "Tailwind", "Typescript", "Git", "css"]                
+        },
+        {
+            "id": "bracco-modal",
+            "title": "Bracco",
+            "link": "https://ilcrochetdili.netlify.app/",
+            "image": "bracco.jpg",
+            "description": "Tool che permette la gestione dei tickets di lavoro.",
+            "technologies": ["Angular", "Bootstrap 4", "scss", "Git", "Font awesome", "PostgreSQL", "PostgREST"]                
+        },
+        {
+            "id": "kidstore-modal",
+            "title": "KidStore - Ecommerce Template",
+            "link": "http://ilariadirosa.it/kidstore/",
+            "image": "kidStore.jpg",
+            "description": "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman.",
+            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bootstrap 3"]                
+        },
+        {
+            "id": "countdown-angular-modal",
+            "title": "Countdown Angular 15",
+            "link": "https://github.com/iladiro/Counter--Angular",
+            "image": "countdown.png",
+            "description": "It is a configurable countdown",
+            "technologies": ["Angular 15", "HTML5", "CSS3", "SASS", "Javascript", "Typescript"]                
+        },
+        {
+            "id": "socialSharing-modal",
+            "title": "Social sharing pure javascript",
+            "link": "http://ilariadirosa.it/social-sharing/",
+            "image": "socialSharing.jpg",
+            "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
+            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bourbon", "Neat"]                
+        },
+        {
+            "id": "socialSharing-angular-modal",
+            "title": "Social sharing Angular 4",
+            "link": "https://github.com/iladiro/SocialSharing---Angular4",
+            "image": "socialSharing.jpg",
+            "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
+            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"]                
+        },
+        {
+            "id": "slider-angular-modal",
+            "title": "Slider Angular 15",
+            "link": "https://github.com/iladiro/angular-slider",
+            "image": "slider.png",
+            "description": "Angular Library",
+            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"]                
+        },
+        {
+            "id": "angular-material-table-modal",
+            "title": "Angular material table library",
+            "link": "https://github.com/iladiro/angular-material-table",
+            "image": "material-table.png",
+            "description": "It is an Angular library based on Material to filter tabular data by columns.",
+            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 16", "Typescript", "Angular material"]                
+        }
+    ]
+}

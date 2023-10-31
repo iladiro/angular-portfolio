@@ -1,0 +1,164 @@
+{
+  "prj": {
+    "education_training": [
+      {
+        "label": "From March 2015 to July 2015",
+        "title": "ESOL course",
+        "description": "I attended an ESOL course in Manchester"
+      },
+      {
+        "label": "From September 2007 to June 2008",
+        "title": "Dynamic site course",
+        "description": ""
+      },
+      {
+        "label": "From September 2002 to July 2007",
+        "title": "High school",
+        "description": "High school leaving qualification in Multimedia Communication at ITSOS Milan"
+      }
+    ],
+    "works_experience": [
+      {
+        "label": "From July 2023",
+        "title": "Esis - Atum",
+        "description": "I'm working for the Esis group as a consultant at Atum."
+      },
+      {
+        "label": "From November 2021 to April 2023",
+        "title": "K2 - Accenture",
+        "description": "I worked at k2 consulting group as Accenture consultant. I collaborated with two different working groups."
+      },
+      {
+        "label": "From November 2017 to January 2020",
+        "title": "Subcom - Wind",
+        "description": "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components."
+      },
+      {
+        "label": "From May 2016 to March 2017",
+        "title": "Axenso",
+        "description": "I worked at Axenso as freelancer. My duty was to build websites interface  and web applications."
+      },
+      {
+        "label": "From January 2015 to June 2016",
+        "title": "Freelance",
+        "description": "I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school."
+      },
+      {
+        "label": "From January 2010 to December 2014",
+        "title": "ContactLab",
+        "description": "Employee at ContactLab (Digital direct email marketing) as HTML Developer."
+      },
+      {
+        "label": "From January 2007 to December 2009",
+        "title": "PrimaPagina",
+        "description": "Employee at PrimaPagina as HTML Developer."
+      }
+    ],
+    "personal_projects": [
+      {
+        "label": "Il Crochet di Ili",
+        "title": "Web site",
+        "description": "It is a personal web site",
+        "github": "https://github.com/iladiro/ilcrochetdili"
+      },
+      {
+        "label": "Bracco",
+        "title": "Tool",
+        "description": "Tool that allows the management of work tickets.",
+        "github": "https://github.com/iladiro/bracco2.0"
+      },
+      {
+        "label": "Social sharing pure javascript",
+        "title": "Tool",
+        "description": "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest).",
+        "github": "https://github.com/iladiro/social-sharing"
+      },
+      {
+        "label": "Social sharing Angular 4",
+        "title": "Tool",
+        "description": "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest).",
+        "github": "https://github.com/iladiro/SocialSharing---Angular4"
+      },
+      {
+        "label": "Countdown pure Js",
+        "title": "Plugin",
+        "description": "Pure JavaScript plugin",
+        "github": "https://github.com/iladiro/counter"
+      },
+      {
+        "label": "Countdown Angular 15",
+        "title": "Angular Library",
+        "description": "It is a configurable countdown",
+        "github": "https://github.com/iladiro/Counter--Angular"
+      },
+      {
+        "label": "Slider Angular 15",
+        "title": "Angular Library",
+        "description": "It is an Angular library",
+        "github": "https://github.com/iladiro/slider"
+      }
+    ],
+    "skills": [
+      {
+        "label": "Languages:",
+        "title": null,
+        "description": "English"
+      },
+      {
+        "label": "OS:",
+        "title": null,
+        "description": "MacOsx, Windows, Linux"
+      },
+      {
+        "label": "Programming languages:",
+        "title": null,
+        "description": "HTML 4/5, CSS 2/3, JavaScript, Typescript"
+      },
+      {
+        "label": "Ruby Framework:",
+        "title": null,
+        "description": "Middleman"
+      },
+      {
+        "label": "Javascript Framework:",
+        "title": null,
+        "description": "Angular > 2, Vue 3, Svelte"
+      },
+      {
+        "label": "Html framework:",
+        "title": null,
+        "description": "Bootstrap"
+      },
+      {
+        "label": "Css framework:",
+        "title": null,
+        "description": "Bourbon, Tailwind"
+      },
+      {
+        "label": "Javascript libraries:",
+        "title": null,
+        "description": "Jquery"
+      },
+      {
+        "label": "Preprocessors:",
+        "title": null,
+        "description": "SASS, LESS"
+      },
+      {
+        "label": "Versioning tools:",
+        "title": null,
+        "description": "Git"
+      },
+      {
+        "label": "Web Server:",
+        "title": null,
+        "description": "PostgREST"
+      },
+      {
+        "label": "Database management system:",
+        "title": null,
+        "description": "PostgreSQL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/stylesheets/helpers/custom-mixin";
+@import "../../../assets/stylesheets/helpers/variables";
+
+  .social{
+    &__link{
+      border-radius: 50%;
+      @include border(1px, #dddddd);
+      @include size(50px, 50px);
+      @include spaces(0, 0 5px 0 0);
+      @include transition(all 0.2s linear);
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      &:hover{
+        color: $main-color;
+        @include border(1px, $main-color);
+      }
+    }
+  }

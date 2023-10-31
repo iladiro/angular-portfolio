@@ -1,0 +1,206 @@
+@mixin spaces($padding, $margin){
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin border($size, $color, $side: nil, $type: solid){
+  @if ($side == 'nil') {
+    border: $size $type $color;
+  } @else {
+    border-#{$side}: $size $type $color;
+  }
+}
+
+@mixin radius($size) {
+  width: $size;
+  height: $size;
+  line-height: $size;
+  border-radius: 50% !important;
+  text-align: center;
+}
+
+@mixin size($width, $height){
+  width: $width;
+  height: $height;
+}
+
+@mixin font-style($size, $color, $weight: 300, $line-height: normal){
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  line-height: $line-height;
+}
+
+@mixin bg-size($size: cover){
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin position($x, $Xval, $y, $Yval, $z-index: unset, $type: absolute){
+  position: $type;
+  #{$x}: $Xval;
+  #{$y}: $Yval;
+  z-index: $z-index;
+}
+
+@mixin respond-to($type, $query){
+  @media($type: $query){
+    @content;
+  }
+}
+
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+@mixin transform($transform...) {
+  transform: $transform;
+  -ms-transform: $transform; /* prefix for IE 9 */
+  -webkit-transform: $transform; /* prefix for Safari and Chrome */
+}
+
+@mixin user-select($value: none) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+	background: nth(nth($color-stops, 2), 1) !important;
+	background: -webkit-linear-gradient(legacy-direction($direction), $color-stops) !important;
+	background: linear-gradient($direction, $color-stops) !important;
+}
+
+@mixin placeholder($color: $input-color-placeholder, $opacity: 1) {
+  // Firefox
+  &::-moz-placeholder {
+    color: $color;
+    opacity: $opacity; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+  &:-ms-input-placeholder { color: $color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: $color; } // Safari and Chrome
+}
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+          box-shadow: $shadow;
+}
+
+@mixin flex-order($int: 0) {
+  -webkit-box-ordinal-group: $int + 1;
+     -moz-box-ordinal-group: $int + 1;
+              -webkit-order: $int;
+             -ms-flex-order: $int;
+                      order: $int;
+}
+
+@mixin flex-wrap($value: nowrap) {
+  // No Webkit/FF Box fallback.
+  -webkit-flex-wrap: $value;
+  @if $value == nowrap {
+    -ms-flex-wrap: none;
+  } @else {
+    -ms-flex-wrap: $value;
+  }
+  flex-wrap: $value;
+}
+
+@mixin flex-align($x) {
+  -webkit-box-align: $x;
+  -ms-flex-align: $x;
+  align-items: $x;
+}
+
+@mixin flex-direction($direction: row) {
+  @if $direction == row-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+       -moz-box-direction: reverse;
+       -moz-box-orient: horizontal;
+  } @else if $direction == column {
+    -webkit-box-direction: normal;
+     -webkit-box-orient: vertical;
+       -moz-box-direction: normal;
+        -moz-box-orient: vertical;
+  } @else if $direction == column-reverse {
+    -webkit-box-direction: reverse;
+      -webkit-box-orient: vertical;
+       -moz-box-direction: reverse;
+         -moz-box-orient: vertical;
+  } @else {
+     -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+        -moz-box-direction: normal;
+       -moz-box-orient: horizontal;
+  }
+  -webkit-flex-direction: $direction;
+      -ms-flex-direction: $direction;
+          flex-direction: $direction;
+}
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+// Inline flex display
+@mixin inline-flex {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@mixin flex-grow($int: 1) {
+  -webkit-box-flex: $int;
+     -moz-box-flex: $int;
+ -webkit-flex-grow: $int;
+          -ms-flex: $int;
+         flex-grow: $int;
+}
+
+@mixin flex-justify($value: flex-start) {
+  @if $value == flex-start {
+    -webkit-box-pack: start;
+       -moz-box-pack: start;
+       -ms-flex-pack: start;
+  } @else if $value == flex-end {
+    -webkit-box-pack: end;
+       -moz-box-pack: end;
+       -ms-flex-pack: end;
+  } @else if $value == space-between {
+    -webkit-box-pack: justify;
+       -moz-box-pack: justify;
+       -ms-flex-pack: justify;
+  } @else if $value == space-around {
+       -ms-flex-pack: distribute;
+  } @else {
+    -webkit-box-pack: $value;
+       -moz-box-pack: $value;
+       -ms-flex-pack: $value;
+  }
+  -webkit-justify-content: $value;
+          justify-content: $value;
+}
+
+@mixin animation($args...) {
+  -webkit-animation: $args; /* Safari 4.0 - 8.0 */
+  animation: $args;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: alpha(opacity=$opacity-ie);
+}

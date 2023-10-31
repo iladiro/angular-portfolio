@@ -1,0 +1,6 @@
+@import "../../../assets/stylesheets/helpers/custom-mixin";
+@import "../../../assets/stylesheets/helpers/variables";
+
+.section-title{
+    @include font-style(50px, $main-color);
+}
