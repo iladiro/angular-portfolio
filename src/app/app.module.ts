@@ -14,6 +14,8 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './views/home/home.component';
 import { SchoolEducationComponent } from './components/school-education/school-education.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { NgChartsModule } from 'ng2-charts';
+import { DoughnutChartComponent } from './shared/doughnut-chart/doughnut-chart.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
     WorkBlockComponent,
     HomeComponent,
     SchoolEducationComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    DoughnutChartComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

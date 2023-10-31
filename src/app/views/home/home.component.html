@@ -7,16 +7,21 @@
     </div>       
 </section>
 <section class="px-5" style="background-color: #eadece; transform: translateY(-140px); padding-top: 140px;">
-    <div class="d-flex">
-        <div>
+    <div class="row">
+        <div class="col-md-6">
             <h2>About me</h2>
-            <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.</p>
+            <div class="row">
+                <div class="col-6">
+                    <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.</p>
+                </div>                
+                <div class="col-6">
+                    <app-social-channels></app-social-channels>
+                </div>                
+            </div>
         </div>
-        <div>
-            <app-social-channels></app-social-channels>
-        </div>
-        <div class="flex-grow-1">
-            <div>sdfgsdg</div>
+        <div class="col-md-6">
+            <h2>Skills</h2>
+            <app-doughnut-chart></app-doughnut-chart>
         </div>
     </div>
     <app-school-education></app-school-education>
