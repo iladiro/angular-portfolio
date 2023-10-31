@@ -1,0 +1,44 @@
+@import "../../../assets/stylesheets/helpers/custom-mixin";
+@import "../../../assets/stylesheets/helpers/variables";
+
+.cd-timeline {
+    &::before {
+      content: "";
+      display: block;
+      border-left: 5px dotted #a5a5ad;
+      @include transform(translateX(49px));
+      z-index: 0;
+    }
+    //@include transform(translateX(-8%));
+    @at-root #{&}__icon{
+      position: relative;
+      z-index: 10;
+      @include font-style(25px, #ffffff);
+      background-color: $main-color;
+      @include size(60px, 60px);
+    }
+    @at-root #{&}__title{
+      @include font-style(24px, $main-color);
+    }
+    @at-root #{&}__subtitle{
+      @include font-style(24px, #6D6D85);
+    }
+    @at-root #{&}__description{
+      @include font-style(19px, #6D6D85);
+    }
+    @at-root #{&}__link{
+      @include font-style(19px, $main-color);
+      @include transition(color 0.3s ease-out);
+      background-color: transparent;
+      &:hover{
+        color: lighten($main-color, 20%);
+        text-decoration: none;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+    @include respond-to(max-width, 768px) {
+      margin-left: 35px;
+    }
+  }

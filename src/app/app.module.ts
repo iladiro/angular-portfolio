@@ -13,6 +13,7 @@ import { WorkBlockComponent } from './shared/work-block/work-block.component';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './views/home/home.component';
 import { SchoolEducationComponent } from './components/school-education/school-education.component';
+import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SchoolEducationComponent } from './components/school-education/school-e
     TimelineBlockComponent,
     WorkBlockComponent,
     HomeComponent,
-    SchoolEducationComponent
+    SchoolEducationComponent,
+    WorkExperienceComponent
   ],
   imports: [
     CommonModule,

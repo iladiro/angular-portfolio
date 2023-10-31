@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import schooleducation from '../../../assets/data/schooleducation.json';
+import workexperiences from '../../../assets/data/workexperiences.json';
 
 interface Schooleducation {
   id: string;
@@ -12,16 +12,16 @@ interface Schooleducation {
 }
 
 @Component({
-  selector: 'app-school-education',
-  templateUrl: './school-education.component.html',
-  styleUrls: ['./school-education.component.scss']
+  selector: 'app-work-experience',
+  templateUrl: './work-experience.component.html',
+  styleUrls: ['./work-experience.component.scss']
 })
-export class SchoolEducationComponent {
+export class WorkExperienceComponent {
 
   list!: Schooleducation[];
 
   constructor() {
-    this.list = schooleducation;
+    this.list = workexperiences;
     console.log(this.list);
   }
 

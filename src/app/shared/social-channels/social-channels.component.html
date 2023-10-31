@@ -1,22 +1,10 @@
-<ul class="social list-unstyled d-flex align-items-center justify-content-center">
-    <li class="social__item">
-      <a href="https://www.facebook.com/ilaria.d.rosa.5" class="social__link">  
-        <i class="fab facebook"></i>
-      </a>
-    </li>
-    <li class="social__item">
-      <a href="https://www.linkedin.com/in/ilariadirosa/" class="social__link">
-        <i class="fab linkedin"></i>
-      </a>
-    </li>
-    <li class="social__item">
-      <a href="https://www.linkedin.com/in/ilariadirosa/" class="social__link">
-        <i class="fab pinterest"></i>
-      </a>
-    </li>
-    <li class="social__item">
-      <a href="mailto:dirosa.ilaria@gmail.com" class="social__link">
-        <i class="fab envelope"></i>
-      </a>
+<ul class="social list-unstyled">
+    <li class="social__item mb-2" *ngFor="let item of list">
+      <div class="d-flex align-items-center gap-2">
+        <a [href]="item.url" class="social__link bg-white d-flex align-items-center justify-content-center p-2">  
+          <i [class]="item.icon"></i>
+        </a>
+        <p class="m-0">Ilaria Di Rosa</p>
+      </div>      
     </li>
 </ul>

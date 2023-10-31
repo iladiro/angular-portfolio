@@ -1,1 +1,24 @@
-<app-school-education></app-school-education>
+<section class="background position-relative">
+    <!-- <app-section-title [icon]="'fa-solid fa-user'" [title]="'About me'"></app-section-title> -->
+    <div class="container text-center">
+        <div class="rounded-circle" style="z-index: 10; position: relative;">
+            <img src="../../assets/images/me.png" width="400" alt="Ilaria Di Rosa" class="photo-frame__img">
+        </div> 
+    </div>       
+</section>
+<section class="px-5" style="background-color: #eadece; transform: translateY(-140px); padding-top: 140px;">
+    <div class="d-flex">
+        <div>
+            <h2>About me</h2>
+            <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.</p>
+        </div>
+        <div>
+            <app-social-channels></app-social-channels>
+        </div>
+        <div class="flex-grow-1">
+            <div>sdfgsdg</div>
+        </div>
+    </div>
+    <app-school-education></app-school-education>
+    <app-work-experience></app-work-experience>
+</section>

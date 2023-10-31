@@ -1,76 +1,74 @@
-{
-    "list": [
-        {
-            "id": "exp-1",
-            "icon": "fa-solid fa-code",
-            "title": "From 2007 to 2009",
-            "subtitle": "PrimaPagina",
-            "description": "My first work's experience has been at Prima Pagina. My duty and responsibility was to build, test and release newsletters.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-2",
-            "icon": "fa-solid fa-code",
-            "title": "From 2009 to 2014",
-            "subtitle": "Contactlab",
-            "description": "I worked at ContactLab (Digital direct email marketing) as HTML Developer. I built, tested and deployed email templates. My duty was to build Responsive landing pages and Survey forms as well.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-3",
-            "icon": "fa-solid fa-code",
-            "title": "From January 2015 to May 2016",
-            "subtitle": "Freelancer",
-            "description": "I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-4",
-            "icon": "fa-solid fa-code",
-            "title": "From June 2016 to March 2017",
-            "subtitle": "Axenso",
-            "description": "I worked at Axenso as freelancer. My duty was to build websites interface  and web applications.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-5",
-            "icon": "fa-solid fa-code",
-            "title": "From November 2017 to January 2020",
-            "subtitle": "Subcom - Wind",
-            "description": "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-6",
-            "icon": "fa-solid fa-code",
-            "title": "From November 2021 to February 2023",
-            "subtitle": "K2 - Accenture",
-            "description": "I worked at K2 as Accenture consultant. My duty was to build new website Wind components and do maintenance on existing components.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-7",
-            "icon": "fa-solid fa-code",
-            "title": "From June 2023",
-            "subtitle": "Esis - Atumtech",
-            "description": "I am working as a consultant.",
-            "dataTarget": "",
-            "linkText": ""
-        },
-        {
-            "id": "exp-8",
-            "icon": "",
-            "title": "View my curriculum...",
-            "subtitle": "...and download it",
-            "description": "",
-            "linkText": "view",
-            "dataTarget": "#curriculum"
-        }
-    ]
-}
+[
+    {
+        "id": "exp-1",
+        "icon": "bi bi-code-slash",
+        "title": "From 2007 to 2009",
+        "subtitle": "PrimaPagina",
+        "description": "My first work's experience has been at Prima Pagina. My duty and responsibility was to build, test and release newsletters.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-2",
+        "icon": "bi bi-code-slash",
+        "title": "From 2009 to 2014",
+        "subtitle": "Contactlab",
+        "description": "I worked at ContactLab (Digital direct email marketing) as HTML Developer. I built, tested and deployed email templates. My duty was to build Responsive landing pages and Survey forms as well.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-3",
+        "icon": "bi bi-code-slash",
+        "title": "From January 2015 to May 2016",
+        "subtitle": "Freelancer",
+        "description": "I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-4",
+        "icon": "bi bi-code-slash",
+        "title": "From June 2016 to March 2017",
+        "subtitle": "Axenso",
+        "description": "I worked at Axenso as freelancer. My duty was to build websites interface  and web applications.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-5",
+        "icon": "bi bi-code-slash",
+        "title": "From November 2017 to January 2020",
+        "subtitle": "Subcom - Wind",
+        "description": "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-6",
+        "icon": "bi bi-code-slash",
+        "title": "From November 2021 to February 2023",
+        "subtitle": "K2 - Accenture",
+        "description": "I worked at K2 as Accenture consultant. My duty was to build new website Wind components and do maintenance on existing components.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-7",
+        "icon": "bi bi-code-slash",
+        "title": "From June 2023",
+        "subtitle": "Esis - Atumtech",
+        "description": "I am working as a consultant.",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-8",
+        "icon": "bi bi-file-earmark",
+        "title": "View my curriculum...",
+        "subtitle": "...and download it",
+        "description": "",
+        "linkText": "view",
+        "dataTarget": "#curriculum"
+    }
+]

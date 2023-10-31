@@ -1,7 +1,7 @@
 [
     {
         "id": "item-1",
-        "icon": "fa-solid fa-child",
+        "icon": "bi bi-emoji-smile",
         "title": "16 February 1988",
         "subtitle": "Born",
         "description": "I was born in Milan February 16, 1988.",
@@ -10,7 +10,7 @@
     },
     {
         "id": "item-2",
-        "icon": "fa-solid fa-graduation-cap",
+        "icon": "bi bi-mortarboard",
         "title": "From 2002 - 2007",
         "subtitle": "Hight School",
         "description": "I attended technical shool ITSOS Albert Steiner in Milan. It's a school of multimedia communication, the which main school subjects are: Photography, Cinema, Informatic, 3D Graphic and 2D Graphic. I've wanted to focus more on Information and Graphic subject school.",
@@ -19,7 +19,7 @@
     },
     {
         "id": "item-3",
-        "icon": "fa-solid fa-book",
+        "icon": "bi bi-braces",
         "title": "From September 2007 to June 2008",
         "subtitle": "IT Course",
         "description": "I attended a Website Course.",

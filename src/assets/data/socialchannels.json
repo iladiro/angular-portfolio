@@ -1,0 +1,22 @@
+[
+    {
+        "name": "facebook",
+        "icon": "bi bi-facebook",
+        "url": "https://www.facebook.com/ilaria.d.rosa.5"
+    },
+    {
+        "name": "linkedin",
+        "icon": "bi bi-pinterest",
+        "url": "https://www.linkedin.com/in/ilariadirosa/"
+    },
+    {
+        "name": "linkedin",
+        "icon": "bi bi-linkedin",
+        "url": "https://www.pinterest.it/IlCrochetDili/"
+    },
+    {
+        "name": "envelope",
+        "icon": "bi bi-envelope",
+        "url": "mailto:dirosa.ilaria@gmail.com"
+    }
+]

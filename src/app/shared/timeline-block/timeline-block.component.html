@@ -1,1 +1,23 @@
-<p>timeline-block works!</p>
+<div class="cd-timeline position-relative d-flex gap-3 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+    <div class="">
+        <div class="cd-timeline__icon rounded-circle text-center d-flex align-items-center justify-content-center">
+          <i [class]="icon"></i>
+        </div>
+    </div>
+    <div class="cd-timeline__content">
+        <h3 class="cd-timeline__title fw-light mt-0">
+            {{ title }}
+        </h3>
+        <div class="cd-timeline__body">
+        <h4 class="cd-timeline__subtitle fw-light mt-0">
+            {{ subtitle }}
+        </h4>
+        <p class="cd-timeline__description fw-light">
+            {{ description }}
+        </p>
+        <button type="button" class="text-uppercase fw-normal cd-timeline__link p-0 border-0" data-toggle="modal" :data-target=dataTarget>
+            {{ linkText }}
+        </button>
+        </div>
+    </div>
+</div>
