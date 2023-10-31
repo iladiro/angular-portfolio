@@ -3,7 +3,23 @@
     <p class="text-dark-grey">
         Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.
     </p>
-    <div class="d-flex">
-        <app-circular-progress-bar [label]="'HTML'" [percentage]="50"></app-circular-progress-bar>      
+    <div class="row">
+        <div class="col text-center mb-3"  *ngFor="let item of list">
+            <circle-progress
+                [percent]="item.percent"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="8"
+                [outerStrokeColor]="'#000'"
+                [innerStrokeColor]="'#d4b5a3'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showSubtitle]="false"
+                [unitsFontSize]="'20'"
+                [titleFontSize]="'20'"
+                >
+            </circle-progress>
+            <p class="mb-0 text-uppercase">{{ item.tecnology }}</p>
+        </div>
     </div>
 </section>

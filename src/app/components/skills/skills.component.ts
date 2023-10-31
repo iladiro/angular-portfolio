@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
+import skills from '../../../assets/data/skills.json';
+
+interface Skill {
+  tecnology: string;
+  percent: number;
+}
 
 @Component({
   selector: 'app-skills',
@@ -6,5 +12,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {
+  
+  list!: Skill[];
+
+  constructor() {
+    this.list = skills;
+  }
 
 }

@@ -1,0 +1,26 @@
+[
+    {
+        "tecnology": "html",
+        "percent": 100
+    },
+    {
+        "tecnology": "css",
+        "percent": 70
+    },
+    {
+        "tecnology": "scss",
+        "percent": 90
+    },
+    {
+        "tecnology": "javascript",
+        "percent": 70
+    },
+    {
+        "tecnology": "typescript",
+        "percent": 70
+    },
+    {
+        "tecnology": "angular",
+        "percent": 80
+    }
+]

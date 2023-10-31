@@ -18,7 +18,7 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HobbyComponent } from './components/hobby/hobby.component';
 import { PersonalProjectsComponent } from './components/personal-projects/personal-projects.component';
-import { CircularProgressBarComponent } from './shared/circular-progress-bar/circular-progress-bar.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -36,13 +36,13 @@ import { CircularProgressBarComponent } from './shared/circular-progress-bar/cir
     SidebarComponent,
     SkillsComponent,
     HobbyComponent,
-    PersonalProjectsComponent,
-    CircularProgressBarComponent
+    PersonalProjectsComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
