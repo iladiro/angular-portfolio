@@ -1,1 +1,11 @@
-<p>work-block works!</p>
+<a href="" class="item" data-toggle="modal" :data-target=id>
+    <img [src]="'../../../assets/images/' + project.image" class="item__image img-fluid" [alt]="project.title">
+    <div class="hover-mask">
+        <div class="item__info text-center">
+        <h2 class="item__title text-uppercase">
+            {{ project.title }}                
+        </h2>
+        <img src="../../../assets/images/ico-white-eye.png" width="40" alt="View">
+        </div>
+    </div>
+</a>

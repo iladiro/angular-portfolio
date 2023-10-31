@@ -22,7 +22,6 @@ export class SchoolEducationComponent {
 
   constructor() {
     this.list = schooleducation;
-    console.log(this.list);
   }
 
 }

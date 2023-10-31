@@ -5,8 +5,8 @@
     &::before {
       content: "";
       display: block;
-      border-left: 5px dotted #a5a5ad;
-      @include transform(translateX(49px));
+      @include border(5px, #a5a5ad, left, dotted);
+      @include transform(translateX(32px));
       z-index: 0;
     }
     //@include transform(translateX(-8%));

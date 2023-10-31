@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Outdoor",
+        "image": "mountain.png"
+    },
+    {
+        "name": "Work wood",
+        "image": "wood.png"
+    },
+    {
+        "name": "Crochet",
+        "image": "crochet.png"
+    },
+    {
+        "name": "Software",
+        "image": "software.png"
+    }
+]

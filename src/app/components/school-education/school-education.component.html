@@ -1,14 +1,13 @@
-<section class="p-3">
-    <div class="container">
-      <div *ngFor="let item of list">
-        <app-timeline-block 
-          [icon]="item.icon"
-          [title]="item.title" 
-          [subtitle]="item.subtitle" 
-          [description]="item.description" 
-          [linkText]="item.linkText" 
-          [dataTarget]="item.dataTarget">
-        </app-timeline-block>
-      </div>
-    </div>      
-  </section>
+<section>
+  <app-section-title [icon]="''" [title]="'Education'" [customClass]="'mb-4'"></app-section-title>
+  <div *ngFor="let item of list">
+    <app-timeline-block 
+      [icon]="item.icon"
+      [title]="item.title" 
+      [subtitle]="item.subtitle" 
+      [description]="item.description" 
+      [linkText]="item.linkText" 
+      [dataTarget]="item.dataTarget">
+    </app-timeline-block>
+  </div>     
+</section>

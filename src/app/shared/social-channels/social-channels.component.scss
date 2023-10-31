@@ -3,16 +3,12 @@
 
   .social{
     &__link{
-      border-radius: 50%;
       @include border(1px, #dddddd);
-      @include size(50px, 50px);
+      @include size(40px, 40px);
       @include transition(all 0.2s linear);
-      line-height: 50px;
-      text-align: center;
-      color: #eadece;
       &:hover{
-        color: $main-color;
-        @include border(1px, $main-color);
+        background-color: darken($color: $main-color, $amount: 10%);
+        @include border(1px, darken($color: $main-color, $amount: 10%));
       }
     }
   }

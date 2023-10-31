@@ -16,6 +16,10 @@ import { SchoolEducationComponent } from './components/school-education/school-e
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { NgChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from './shared/doughnut-chart/doughnut-chart.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { HobbyComponent } from './components/hobby/hobby.component';
+import { PersonalProjectsComponent } from './components/personal-projects/personal-projects.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { DoughnutChartComponent } from './shared/doughnut-chart/doughnut-chart.c
     HomeComponent,
     SchoolEducationComponent,
     WorkExperienceComponent,
-    DoughnutChartComponent
+    DoughnutChartComponent,
+    SidebarComponent,
+    SkillsComponent,
+    HobbyComponent,
+    PersonalProjectsComponent
   ],
   imports: [
     CommonModule,

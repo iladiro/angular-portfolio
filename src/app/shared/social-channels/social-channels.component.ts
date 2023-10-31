@@ -5,6 +5,7 @@ interface Socialchannels {
   name: string;
   icon: string;  
   url: string;
+  accountname: string;
 }
 
 

@@ -2,21 +2,31 @@
     {
         "name": "facebook",
         "icon": "bi bi-facebook",
-        "url": "https://www.facebook.com/ilaria.d.rosa.5"
-    },
-    {
-        "name": "linkedin",
-        "icon": "bi bi-pinterest",
-        "url": "https://www.linkedin.com/in/ilariadirosa/"
+        "url": "https://www.facebook.com/ilaria.d.rosa.5",
+        "accountname": "Ilaria Di Rosa"
     },
     {
         "name": "linkedin",
         "icon": "bi bi-linkedin",
-        "url": "https://www.pinterest.it/IlCrochetDili/"
+        "url": "https://www.linkedin.com/in/ilariadirosa/",
+        "accountname": "Ilaria Di Rosa"
+    },
+    {
+        "name": "pinterest",
+        "icon": "bi bi-pinterest",
+        "url": "https://www.pinterest.it/IlCrochetDili/",
+        "accountname": "IlCrochetDili"
+    },
+    {
+        "name": "github",
+        "icon": "bi bi-github",
+        "url": "https://github.com/iladiro",
+        "accountname": "Iladiro"
     },
     {
         "name": "envelope",
         "icon": "bi bi-envelope",
-        "url": "mailto:dirosa.ilaria@gmail.com"
+        "url": "mailto:dirosa.ilaria@gmail.com",
+        "accountname": "Ilaria Di Rosa"
     }
 ]

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { PersonalProject } from 'src/app/components/personal-projects/personal-projects.component';
 
 @Component({
   selector: 'app-work-block',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./work-block.component.scss']
 })
 export class WorkBlockComponent {
-
+  
+  @Input() project!: PersonalProject;
 }

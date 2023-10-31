@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import workexperiences from '../../../assets/data/workexperiences.json';
 
-interface Schooleducation {
+interface WorkExperience {
   id: string;
   icon: string;
   title: string;
@@ -18,11 +18,10 @@ interface Schooleducation {
 })
 export class WorkExperienceComponent {
 
-  list!: Schooleducation[];
+  list!: WorkExperience[];
 
   constructor() {
     this.list = workexperiences;
-    console.log(this.list);
   }
 
 }
