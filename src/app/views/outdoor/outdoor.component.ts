@@ -4,6 +4,7 @@ import outdoor from '../../../assets/data/outdoor.json';
 export interface Outdoor {
   id: number;
   location: string;
+  text: string;
   photos: string[];
 }
 
@@ -15,5 +16,11 @@ export interface Outdoor {
 export class OutdoorComponent {
 
   list: Outdoor[] = outdoor;
+  currentOutdoor!: Outdoor;
+
+  openGallery(event: any) {
+    console.log(event);
+    this.currentOutdoor = event;
+  }
 
 }

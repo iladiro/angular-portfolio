@@ -2,11 +2,13 @@
     {
         "id": 0,
         "location": "Val di Mello",
+        "text": "",
         "photos": ["valdimello-1.jpg", "valdimello-2.jpg"]
     },
     {
         "id": 0,
         "location": "Valle Spluga",
-        "photos": ["valdimello-1.jpg", "valdimello-2.jpg"]
+        "text": "",
+        "photos": ["vallespluga-1.jpg", "vallespluga-2.jpg"]
     }
 ]
