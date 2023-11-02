@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { PersonalProject } from 'src/app/components/personal-projects/personal-projects.component';
 
 @Component({
@@ -9,4 +9,9 @@ import { PersonalProject } from 'src/app/components/personal-projects/personal-p
 export class WorkBlockComponent {
   
   @Input() project!: PersonalProject;
+  @Output() openModalEvent = new EventEmitter();
+
+  openModal() {
+    this.openModalEvent.emit();
+  }
 }

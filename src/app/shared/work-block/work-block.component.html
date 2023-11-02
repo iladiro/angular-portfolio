@@ -1,4 +1,4 @@
-<a href="" class="item" data-toggle="modal" :data-target=id>
+<button type="button" (click)="openModal()" class="item" data-bs-toggle="modal" data-bs-target="#workModal">
     <img [src]="'../../../assets/images/' + project.image" class="item__image img-fluid" [alt]="project.title">
     <div class="hover-mask">
         <div class="item__info text-center">
@@ -8,4 +8,4 @@
         <img src="../../../assets/images/ico-white-eye.png" width="40" alt="View">
         </div>
     </div>
-</a>
+</button>

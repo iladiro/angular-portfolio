@@ -22,6 +22,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CurriculumComponent } from './components/curriculum/curriculum.component';
 import { CurriculumBlockComponent } from './shared/curriculum-block/curriculum-block.component';
 import { CurriculumItemComponent } from './shared/curriculum-block/curriculum-item/curriculum-item.component';
+import { ModalComponent } from './shared/modal/modal.component';
+import { ProjectDetailsComponent } from './shared/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { CurriculumItemComponent } from './shared/curriculum-block/curriculum-it
     PersonalProjectsComponent,
     CurriculumComponent,
     CurriculumBlockComponent,
-    CurriculumItemComponent
+    CurriculumItemComponent,
+    ModalComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     CommonModule,

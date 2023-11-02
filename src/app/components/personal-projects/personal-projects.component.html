@@ -2,7 +2,10 @@
     <app-section-title [icon]="''" [title]="'Personal projects'" [customClass]="'mb-4'"></app-section-title>
     <div class="row">
         <div class="col-md-4 mb-4" *ngFor="let item of list">
-            <app-work-block [project]="item"></app-work-block>
+            <app-work-block [project]="item" (openModalEvent)="openProjectData(item)"></app-work-block>
         </div>
     </div>
 </section>
+<app-modal [id]="'workModal'">
+    <app-project-details [project]="projectDetails"></app-project-details>
+</app-modal>

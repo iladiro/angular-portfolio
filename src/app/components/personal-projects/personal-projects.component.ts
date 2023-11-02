@@ -18,9 +18,15 @@ export interface PersonalProject {
 export class PersonalProjectsComponent {
 
   list!: PersonalProject[];
+  projectDetails!: PersonalProject;
 
   constructor() {
     this.list = personalprojects;
+  }
+
+  openProjectData(event: any) {
+    console.log(event);
+    this.projectDetails = event;
   }
 
 }
