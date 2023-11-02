@@ -2,9 +2,9 @@
     <h3>{{outdoor.location}}</h3>
     <div class="mb-5">
         <div class="row">
-            <div class="col-6 col-md-3 mb-3" *ngFor="let item of outdoor.photos; let i = index">
-                <button class="border-0 shadow-sm p-0" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
-                    <img [src]="'../../../assets/photos/' + item" class="img-fluid rounded" [alt]="outdoor.location">
+            <div class="mb-3" [class]=" i % 2 === 0 ? 'col-4' : 'col-3'" *ngFor="let item of outdoor.photos; let i = index">
+                <button class="border-0 p-0 h-100 bg-transparent" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
+                    <img [src]="'../../../assets/photos/' + item" class="img-fluid border rounded shadow-sm" [alt]="outdoor.location" [title]="outdoor.location">
                 </button>                
             </div>
         </div>
