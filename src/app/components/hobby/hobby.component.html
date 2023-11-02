@@ -2,22 +2,23 @@
     <app-section-title [icon]="''" [title]="'Hobbies'" [customClass]="'mb-4'"></app-section-title>
     <div class="text-center d-md-flex gap-3 align-items-stretch">
         <ng-container *ngFor="let item of list" class="mb-3 mb-md-0">
-            <ng-container *ngIf="item.url; else noUrl">
-                <a [routerLink]="[item?.url]" class="text-dark-grey">
-                    <figure class="mb-0 mb-md-2">
-                        <img [src]="'../../../assets/images/' + item.image" width="100" [title]="item.name" [alt]="item.name">                             
-                    </figure>
-                    <p class="mb-0">{{ item.name }}</p>
-                </a>
-            </ng-container>
-            <ng-template #noUrl>
+            <ng-container *ngIf="!item.url && !item.externalUrl; else url">
                 <div class="text-dark-grey">
-                    <figure class="mb-0 mb-md-2">
-                        <img [src]="'../../../assets/images/' + item.image" width="100" [title]="item.name" [alt]="item.name">                             
-                    </figure>
-                    <p class="mb-0">{{ item.name }}</p>
+                    <app-hobby-item [item]="item"></app-hobby-item>
                 </div>
-            </ng-template>
+            </ng-container>
+            <ng-template #url>
+                <ng-container *ngIf="item.url; else externalUrl">
+                    <a [routerLink]="[item?.url]" class="text-dark-grey">
+                        <app-hobby-item [item]="item"></app-hobby-item>
+                    </a>
+                </ng-container>
+                <ng-template #externalUrl>
+                    <a [href]="[item?.externalUrl]" class="text-dark-grey" target="_blank">
+                        <app-hobby-item [item]="item"></app-hobby-item>
+                    </a>
+                </ng-template>
+            </ng-template>            
         </ng-container>               
     </div>
 </div>

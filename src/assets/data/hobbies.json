@@ -10,7 +10,8 @@
     },
     {
         "name": "Crochet",
-        "image": "crochet.png"
+        "image": "crochet.png",
+        "externalUrl": "https://ilcrochetdili.netlify.app/"
     },
     {
         "name": "Software",

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import hobbies from '../../../assets/data/hobbies.json';
 
-interface Hobby {
+export interface Hobby {
   name: string;
   image: string;
   url?: string;
+  externalUrl?: string;
 }
 
 @Component({

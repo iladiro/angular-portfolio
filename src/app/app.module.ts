@@ -29,6 +29,7 @@ import { OutdoorGalleryComponent } from './components/outdoor-gallery/outdoor-ga
 import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoor-gallery-item/outdoor-gallery-item.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './shared/carousel/carousel.component';
+import { HobbyItemComponent } from './components/hobby/hobby-item/hobby-item.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     OutdoorComponent,
     OutdoorGalleryComponent,
     OutdoorGalleryItemComponent,
-    CarouselComponent
+    CarouselComponent,
+    HobbyItemComponent
   ],
   imports: [
     CommonModule,
