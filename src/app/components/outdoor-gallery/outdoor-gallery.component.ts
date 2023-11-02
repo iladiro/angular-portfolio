@@ -8,11 +8,11 @@ import { Outdoor } from 'src/app/views/outdoor/outdoor.component';
 })
 export class OutdoorGalleryComponent {
 
-  @Input() item!: Outdoor;
+  @Input() outdoor!: Outdoor;
   @Output() openGalleryEvent = new EventEmitter();
 
   openGallery(index: number): void {
-    this.openGalleryEvent.emit(this.item);
+    this.openGalleryEvent.emit(this.outdoor);
   }
 
 }

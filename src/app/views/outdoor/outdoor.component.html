@@ -1,7 +1,7 @@
 <div class="p-5">
-    <h2 class="mb-4">I love traveling, I love mountains,  I love nature</h2>
+    <app-section-title [icon]="''" [title]="'I love traveling, I love mountains,  I love nature'" [customClass]="'mb-5'"></app-section-title>
     <ng-container *ngFor="let item of list; let i = index">
-        <app-outdoor-gallery [item]="item" (openGalleryEvent)="openGallery($event)"></app-outdoor-gallery>
+        <app-outdoor-gallery [outdoor]="item" (openGalleryEvent)="openGallery($event)"></app-outdoor-gallery>
     </ng-container>    
 </div>
 <app-modal [id]="'gallery'">

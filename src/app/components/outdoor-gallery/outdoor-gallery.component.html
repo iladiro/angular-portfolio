@@ -1,10 +1,10 @@
 <div>
-    <h3>{{item.location}}</h3>
-    <div class="mb-4">
+    <h3>{{outdoor.location}}</h3>
+    <div class="mb-5">
         <div class="row">
-            <div class="col-3 p-1" *ngFor="let item of item.photos; let i = index">
-                <button class="border-0 p-0" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
-                    <img [src]="'../../../assets/photos/' + item" class="img-fluid">
+            <div class="col-6 col-md-3 mb-3" *ngFor="let item of outdoor.photos; let i = index">
+                <button class="border-0 shadow-sm p-0" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
+                    <img [src]="'../../../assets/photos/' + item" class="img-fluid rounded" [alt]="outdoor.location">
                 </button>                
             </div>
         </div>

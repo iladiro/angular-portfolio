@@ -1,14 +1,50 @@
 [
     {
         "id": 0,
-        "location": "Val di Mello",
+        "location": "Val di Mello (Sondrio)",
         "text": "",
-        "photos": ["valdimello-1.jpg", "valdimello-2.jpg"]
+        "photos": ["valdimello-1.jpg", "valdimello-2.jpg", "valdimello-3.jpg", "valdimello-4.jpg"]
     },
     {
-        "id": 0,
-        "location": "Valle Spluga",
+        "id": 1,
+        "location": "Valle Spluga (Sondrio)",
         "text": "",
-        "photos": ["vallespluga-1.jpg", "vallespluga-2.jpg"]
+        "photos": ["vallespluga-1.jpg", "vallespluga-2.jpg", "vallespluga-3.jpg", "vallespluga-4.jpg"]
+    },
+    {
+        "id": 2,
+        "location": "Colere (Bergamo)",
+        "text": "",
+        "photos": ["colere-1.jpg", "colere-2.jpg"]
+    },
+    {
+        "id": 3,
+        "location": "Livigno (Sondrio)",
+        "text": "",
+        "photos": ["livigno-1.jpg", "livigno-2.jpg", "livigno-3.jpg", "livigno-4.jpg"]
+    },
+    {
+        "id": 4,
+        "location": "Tropea (Vibo Valenzia)",
+        "text": "",
+        "photos": ["tropea-1.jpg", "tropea-2.jpg", "tropea-3.jpg", "tropea-4.jpg", "tropea-5.jpg", "tropea-6.jpg", "tropea-7.jpg"]
+    },
+    {
+        "id": 5,
+        "location": "Corni di Canzo (Lecco)",
+        "text": "",
+        "photos": ["corni-di-canzo-1.jpg", "corni-di-canzo-2.jpg", "corni-di-canzo-3.jpg", "corni-di-canzo-4.jpg", "corni-di-canzo-5.jpg", "corni-di-canzo-6.jpg"]
+    },
+    {
+        "id": 6,
+        "location": "Introbio (Lecco)",
+        "text": "",
+        "photos": ["introbio-1.jpg", "introbio-2.jpg", "introbio-3.jpg", "introbio-4.jpg", "introbio-5.jpg", "introbio-6.jpg", "introbio-7.jpg", "introbio-8.jpg", "introbio-9.jpg"]
+    },
+    {
+        "id": 7,
+        "location": "Mottarone (Alpi Pennine)",
+        "text": "",
+        "photos": ["mottarone-1.jpg", "mottarone-2.jpg", "mottarone-3.jpg", "mottarone-4.jpg"]
     }
 ]
