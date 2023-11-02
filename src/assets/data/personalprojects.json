@@ -2,65 +2,119 @@
     {
         "id": "ilcrochetdili-modal",
         "title": "Il Crochet di Ili",
-        "link": "https://ilcrochetdili.netlify.app/",
         "image": "ilCrochetDili.png",
-        "description": "Sito web vetrina realizzato in Svelte",
-        "technologies": ["Svelte", "Tailwind", "Typescript", "Git", "css"]                
+        "description": "Personal Website created in Svelte",
+        "technologies": ["Svelte", "Tailwind", "Typescript", "Git", "css"],
+        "buttons": [
+            {
+                "label": "View web site",
+                "url": "https://ilcrochetdili.netlify.app/"
+            },
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/ilcrochetdili"
+            }
+        ]              
     },
     {
         "id": "bracco-modal",
         "title": "Bracco",
-        "link": "https://ilcrochetdili.netlify.app/",
         "image": "bracco.jpg",
-        "description": "Tool che permette la gestione dei tickets di lavoro.",
+        "description": "Web application that allows the management of work tickets.",
         "technologies": ["Angular", "Bootstrap 4", "scss", "Git", "Font awesome", "PostgreSQL", "PostgREST"]                
     },
     {
         "id": "kidstore-modal",
         "title": "KidStore - Ecommerce Template",
-        "link": "http://ilariadirosa.it/kidstore/",
         "image": "kidStore.jpg",
         "description": "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman.",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bootstrap 3"]                
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bootstrap 3"],         
+        "buttons": [
+            {
+                "label": "View web site",
+                "url": "http://ilariadirosa.it/kidstore/"
+            }
+        ]  
     },
     {
         "id": "countdown-angular-modal",
-        "title": "Countdown Angular 15",
-        "link": "https://github.com/iladiro/Counter--Angular",
+        "title": "Countdown - Angular 15",
         "image": "countdown.png",
         "description": "It is a configurable countdown",
-        "technologies": ["Angular 15", "HTML5", "CSS3", "SASS", "Javascript", "Typescript"]                
+        "technologies": ["Angular 15", "HTML5", "CSS3", "SASS", "Javascript", "Typescript"],
+        "buttons": [
+            {
+                "label": "Npm package",
+                "url": "https://www.npmjs.com/package/@iladiro/angular-counter"
+            },
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/Counter--Angular"
+            }
+        ]                  
     },
     {
         "id": "socialSharing-modal",
-        "title": "Social sharing pure javascript",
-        "link": "http://ilariadirosa.it/social-sharing/",
+        "title": "Social sharing - Pure JavaScript",
         "image": "socialSharing.jpg",
         "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bourbon", "Neat"]                
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bourbon", "Neat"],
+        "buttons": [
+            {
+                "label": "View web tool",
+                "url": "http://ilariadirosa.it/social-sharing/"
+            },
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/social-sharing"
+            }
+        ]   
     },
     {
         "id": "socialSharing-angular-modal",
-        "title": "Social sharing Angular 4",
-        "link": "https://github.com/iladiro/SocialSharing---Angular4",
+        "title": "Social sharing - Angular 4",
         "image": "socialSharing.jpg",
         "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"]                
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"],
+        "buttons": [
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/SocialSharing---Angular4"
+            }
+        ]               
     },
     {
         "id": "slider-angular-modal",
-        "title": "Slider Angular 15",
-        "link": "https://github.com/iladiro/angular-slider",
+        "title": "Slider - Angular 15",
         "image": "slider.png",
-        "description": "Angular Library",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"]                
+        "description": "Angular Slider plugin is flexible and easily customizable",
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"],
+        "buttons": [
+            {
+                "label": "Npm package",
+                "url": "https://www.npmjs.com/package/@iladiro/angular-slider"
+            },
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/angular-slider"
+            }
+        ]                 
     },
     {
         "id": "angular-material-table-modal",
-        "title": "Angular material table library",
-        "link": "https://github.com/iladiro/angular-material-table",
+        "title": "Angular material table library - Angular 16",
         "image": "material-table.png",
         "description": "It is an Angular library based on Material to filter tabular data by columns.",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 16", "Typescript", "Angular material"]                
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 16", "Typescript", "Angular material"],
+        "buttons": [
+            {
+                "label": "Npm package",
+                "url": "https://www.npmjs.com/package/@iladiro/angular-material-table-library"
+            },
+            {
+                "label": "Repository github",
+                "url": "https://github.com/iladiro/angular-material-table"
+            }
+        ]                
     }
 ]

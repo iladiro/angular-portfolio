@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
 import personalprojects from '../../../assets/data/personalprojects.json';
 
+interface PersonalProjectButtons {
+  label: string;
+  url: string;
+}
 export interface PersonalProject {
   id: string;
-  link: string;
   title: string;
   image: string;
   description: string;
   technologies: string[];
+  buttons?: PersonalProjectButtons[]
 }
 
 @Component({

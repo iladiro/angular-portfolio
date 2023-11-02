@@ -69,13 +69,13 @@
         {
           "label": "Il Crochet di Ili",
           "title": "Web site",
-          "description": "It is a personal web site",
+          "description": "Personal Website created in Svelte",
           "github": "https://github.com/iladiro/ilcrochetdili"
         },
         {
           "label": "Bracco",
           "title": "Tool",
-          "description": "Tool that allows the management of work tickets.",
+          "description": "Web application that allows the management of work tickets.",
           "github": "https://github.com/iladiro/bracco2.0"
         },
         {
@@ -93,7 +93,7 @@
         {
           "label": "Countdown pure Js",
           "title": "Plugin",
-          "description": "Pure JavaScript plugin",
+          "description": "Pure JavaScript plugin, easy to configure",
           "github": "https://github.com/iladiro/counter"
         },
         {
@@ -105,7 +105,7 @@
         {
           "label": "Slider Angular 15",
           "title": "Angular Library",
-          "description": "It is an Angular library",
+          "description": "Angular Slider plugin is flexible and easily customizable",
           "github": "https://github.com/iladiro/slider"
         }
       ]
