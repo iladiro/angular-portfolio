@@ -1,15 +1,6 @@
 import { Component } from '@angular/core';
 import workexperiences from '../../../assets/data/workexperiences.json';
-
-interface WorkExperience {
-  id: string;
-  icon: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  linkText: string;
-  dataTarget: string;
-}
+import { WorkExperience } from 'src/app/interfaces/work-experience.interface';
 
 @Component({
   selector: 'app-work-experience',

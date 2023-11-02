@@ -1,0 +1,9 @@
+export interface WorkExperience {
+    id: string;
+    icon: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    linkText: string;
+    dataTarget: string;
+}

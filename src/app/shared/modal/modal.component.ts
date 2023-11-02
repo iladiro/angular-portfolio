@@ -7,4 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ModalComponent {
   @Input() id!: string;
+  @Input() customClass!: string;
+  @Input() showHeader = true;
 }

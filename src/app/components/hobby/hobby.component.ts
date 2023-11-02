@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import hobbies from '../../../assets/data/hobbies.json';
-
-export interface Hobby {
-  name: string;
-  image: string;
-  url?: string;
-  externalUrl?: string;
-}
+import { Hobby } from 'src/app/interfaces/hobby.interface';
 
 @Component({
   selector: 'app-hobby',

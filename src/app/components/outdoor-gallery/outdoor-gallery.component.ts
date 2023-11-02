@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Outdoor } from 'src/app/views/outdoor/outdoor.component';
+import { Outdoor } from 'src/app/interfaces/outdoor.interface';
 
 @Component({
   selector: 'app-outdoor-gallery',

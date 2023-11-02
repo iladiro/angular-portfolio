@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import outdoor from '../../../assets/data/outdoor.json';
-
-export interface Outdoor {
-  id: number;
-  location: string;
-  text: string;
-  photos: string[];
-}
+import { Outdoor } from 'src/app/interfaces/outdoor.interface';
 
 @Component({
   selector: 'app-outdoor',

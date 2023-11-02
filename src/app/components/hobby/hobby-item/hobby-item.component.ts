@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Hobby } from '../hobby.component';
+import { Hobby } from 'src/app/interfaces/hobby.interface';
 
 @Component({
   selector: 'app-hobby-item',

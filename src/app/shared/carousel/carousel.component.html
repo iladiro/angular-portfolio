@@ -1,7 +1,7 @@
 <ngb-carousel>
-  <ng-template ngbSlide *ngFor="let photo of outdoor?.photos; let i = index">
+  <ng-template ngbSlide *ngFor="let photo of outdoor.photos; let i = index">
     <div class="picsum-img-wrapper">
-      <img [src]="'../../../assets/photos/' + photo" alt="Angular Carousel 1" class="img-fluid">
+      <img [src]="'../../../assets/photos/' + photo" [alt]="outdoor.location" [title]="outdoor.location" class="img-fluid rounded">
     </div>
     <div class="carousel-caption">
       <h3>{{ outdoor.location }}</h3>

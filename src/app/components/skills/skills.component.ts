@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
 import skills from '../../../assets/data/skills.json';
-
-interface Skill {
-  tecnology: string;
-  percent: number;
-}
+import { Skill } from 'src/app/interfaces/skill.interface';
 
 @Component({
   selector: 'app-skills',

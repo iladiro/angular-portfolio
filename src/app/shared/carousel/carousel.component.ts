@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Outdoor } from 'src/app/views/outdoor/outdoor.component';
+import { Outdoor } from 'src/app/interfaces/outdoor.interface';
 
 @Component({
   selector: 'app-carousel',

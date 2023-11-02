@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { PersonalProject } from 'src/app/components/personal-projects/personal-projects.component';
+import { PersonalProject } from 'src/app/interfaces/personal-project.interface';
 
 @Component({
   selector: 'app-work-block',

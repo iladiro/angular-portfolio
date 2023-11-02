@@ -1,18 +1,6 @@
 import { Component } from '@angular/core';
 import personalprojects from '../../../assets/data/personalprojects.json';
-
-interface PersonalProjectButtons {
-  label: string;
-  url: string;
-}
-export interface PersonalProject {
-  id: string;
-  title: string;
-  image: string;
-  description: string;
-  technologies: string[];
-  buttons?: PersonalProjectButtons[]
-}
+import { PersonalProject } from 'src/app/interfaces/personal-project.interface';
 
 @Component({
   selector: 'app-personal-projects',

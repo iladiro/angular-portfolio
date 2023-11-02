@@ -4,6 +4,6 @@
         <app-outdoor-gallery [outdoor]="item" (openGalleryEvent)="openGallery($event)"></app-outdoor-gallery>
     </ng-container>    
 </div>
-<app-modal [id]="'gallery'">
+<app-modal [id]="'gallery'" [showHeader]="false">
     <app-carousel [outdoor]="currentOutdoor"></app-carousel>
 </app-modal>

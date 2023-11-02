@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { PersonalProject } from 'src/app/components/personal-projects/personal-projects.component';
+import { PersonalProject } from 'src/app/interfaces/personal-project.interface';
 
 @Component({
   selector: 'app-project-details',

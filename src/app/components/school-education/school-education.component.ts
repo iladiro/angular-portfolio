@@ -1,15 +1,6 @@
 import { Component } from '@angular/core';
 import schooleducation from '../../../assets/data/schooleducation.json';
-
-interface Schooleducation {
-  id: string;
-  icon: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  linkText: string;
-  dataTarget: string;
-}
+import { Schooleducation } from 'src/app/interfaces/school-education.interface';
 
 @Component({
   selector: 'app-school-education',
