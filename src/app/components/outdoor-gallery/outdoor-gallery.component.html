@@ -3,8 +3,9 @@
     <div class="mb-5">
         <div class="row">
             <div class="mb-3" [class]=" i % 2 === 0 ? 'col-4' : 'col-3'" *ngFor="let item of outdoor.photos; let i = index">
-                <button class="border-0 p-0 h-100 bg-transparent" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
+                <button class="position-relative border-0 p-0 h-100 bg-transparent" (click)="openGallery(i)" data-bs-toggle="modal" data-bs-target="#gallery">
                     <img [src]="'../../../assets/photos/' + item" class="img-fluid border rounded shadow-sm" [alt]="outdoor.location" [title]="outdoor.location">
+                    <!-- <div class="position-absolute bottom-0 left-0 w-100 text-start p-3 bg-dark text-white opacity-50 rounded-bottom">Prova</div> -->
                 </button>                
             </div>
         </div>
