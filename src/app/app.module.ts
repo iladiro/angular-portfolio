@@ -27,6 +27,7 @@ import { ProjectDetailsComponent } from './components/personal-projects/project-
 import { OutdoorComponent } from './views/outdoor/outdoor.component';
 import { OutdoorGalleryComponent } from './components/outdoor-gallery/outdoor-gallery.component';
 import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoor-gallery-item/outdoor-gallery-item.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoo
     CommonModule,
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],
