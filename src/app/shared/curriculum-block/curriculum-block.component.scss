@@ -1,9 +1,0 @@
-@import "../../../assets/stylesheets/helpers/custom-mixin";
-@import "../../../assets/stylesheets/helpers/variables";
-
-.cv-section{
-  &__icon{
-    @include font-style(25px, #ffffff);
-    @include size(60px, 60px);
-  }
-}

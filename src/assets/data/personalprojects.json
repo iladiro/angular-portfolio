@@ -1,6 +1,6 @@
 [
     {
-        "id": "ilcrochetdili-modal",
+        "id": "#workModal",
         "title": "Il Crochet di Ili",
         "image": "ilCrochetDili.png",
         "description": "Personal Website created in Svelte",
@@ -17,14 +17,14 @@
         ]              
     },
     {
-        "id": "bracco-modal",
+        "id": "#workModal",
         "title": "Bracco",
         "image": "bracco.jpg",
         "description": "Web application that allows the management of work tickets.",
         "technologies": ["Angular", "Bootstrap 4", "scss", "Git", "Font awesome", "PostgreSQL", "PostgREST"]                
     },
     {
-        "id": "kidstore-modal",
+        "id": "#workModal",
         "title": "KidStore - Ecommerce Template",
         "image": "kidStore.jpg",
         "description": "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman.",
@@ -37,7 +37,7 @@
         ]  
     },
     {
-        "id": "countdown-angular-modal",
+        "id": "#workModal",
         "title": "Countdown - Angular 15",
         "image": "countdown.png",
         "description": "It is a configurable countdown",
@@ -54,7 +54,7 @@
         ]                  
     },
     {
-        "id": "socialSharing-modal",
+        "id": "#workModal",
         "title": "Social sharing - Pure JavaScript",
         "image": "socialSharing.jpg",
         "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
@@ -71,7 +71,7 @@
         ]   
     },
     {
-        "id": "socialSharing-angular-modal",
+        "id": "#workModal",
         "title": "Social sharing - Angular 4",
         "image": "socialSharing.jpg",
         "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
@@ -84,7 +84,7 @@
         ]               
     },
     {
-        "id": "slider-angular-modal",
+        "id": "#workModal",
         "title": "Slider - Angular 15",
         "image": "slider.png",
         "description": "Angular Slider plugin is flexible and easily customizable",
@@ -101,7 +101,7 @@
         ]                 
     },
     {
-        "id": "angular-material-table-modal",
+        "id": "#workModal",
         "title": "Angular material table library - Angular 16",
         "image": "material-table.png",
         "description": "It is an Angular library based on Material to filter tabular data by columns.",

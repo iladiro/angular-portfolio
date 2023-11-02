@@ -1,21 +1,21 @@
-@import "../../../assets/stylesheets/helpers/custom-mixin";
-@import "../../../assets/stylesheets/helpers/variables";
+@import "../../../../assets/stylesheets/helpers/custom-mixin";
+@import "../../../../assets/stylesheets/helpers/variables";
 
-.item{
+.work-block{
+    $this: &;
     position: relative;
-    //margin-bottom: 30px;
     display: block;
     overflow: hidden;
     border: none;
     background-color: transparent;
     padding: 0;
     outline: none;
-    @at-root #{&}__image{
+    &__image{
       @include transform(scale(1));
       @include transition(transform 0.3s ease-out);
     }
     &:hover{
-      .item__image{
+      #{$this}__image{
         @include transform(scale(1.3));
       }
     }
@@ -26,10 +26,10 @@
       background: $dark-grey;
       @include opacity(0);
       @include transition(all 0.3s ease-out);
-      .item__info{
+      #{$this}__info{
         margin-top: 23%;
       }
-      .item__title{
+      #{$this}__title{
         @include font-style(17px, #ffffff);
         margin-top: 0;
         i{

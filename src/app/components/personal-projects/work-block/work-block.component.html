@@ -1,0 +1,11 @@
+<button type="button" (click)="openModal()" class="work-block" data-bs-toggle="modal" [attr.data-bs-target]="project.id">
+    <img [src]="'../../../assets/images/' + project.image" class="work-block__image img-fluid" [alt]="project.title">
+    <div class="hover-mask">
+        <div class="work-block__info text-center">
+            <h2 class="work-block__title text-uppercase">
+                {{ project.title }}                
+            </h2>
+            <img src="../../../assets/images/ico-white-eye.png" width="40" alt="View">
+        </div>
+    </div>
+</button>

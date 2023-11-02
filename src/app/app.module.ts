@@ -9,7 +9,7 @@ import { NavComponent } from './layout/nav/nav.component';
 import { SocialChannelsComponent } from './shared/social-channels/social-channels.component';
 import { SectionTitleComponent } from './shared/section-title/section-title.component';
 import { TimelineBlockComponent } from './shared/timeline-block/timeline-block.component';
-import { WorkBlockComponent } from './shared/work-block/work-block.component';
+import { WorkBlockComponent } from './components/personal-projects/work-block/work-block.component';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './views/home/home.component';
 import { SchoolEducationComponent } from './components/school-education/school-education.component';
@@ -20,10 +20,10 @@ import { HobbyComponent } from './components/hobby/hobby.component';
 import { PersonalProjectsComponent } from './components/personal-projects/personal-projects.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CurriculumComponent } from './components/curriculum/curriculum.component';
-import { CurriculumBlockComponent } from './shared/curriculum-block/curriculum-block.component';
-import { CurriculumItemComponent } from './shared/curriculum-block/curriculum-item/curriculum-item.component';
+import { CurriculumBlockComponent } from './components/curriculum/curriculum-block/curriculum-block.component';
+import { CurriculumItemComponent } from './components/curriculum/curriculum-block/curriculum-item/curriculum-item.component';
 import { ModalComponent } from './shared/modal/modal.component';
-import { ProjectDetailsComponent } from './shared/project-details/project-details.component';
+import { ProjectDetailsComponent } from './components/personal-projects/project-details/project-details.component';
 
 @NgModule({
   declarations: [
