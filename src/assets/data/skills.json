@@ -22,5 +22,13 @@
     {
         "tecnology": "angular",
         "percent": 80
+    },
+    {
+        "tecnology": "vue",
+        "percent": 40
+    },
+    {
+        "tecnology": "svelte",
+        "percent": 30
     }
 ]

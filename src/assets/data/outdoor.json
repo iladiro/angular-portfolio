@@ -1,0 +1,12 @@
+[
+    {
+        "id": 0,
+        "location": "Val di Mello",
+        "photos": ["valdimello-1.jpg", "valdimello-2.jpg"]
+    },
+    {
+        "id": 0,
+        "location": "Valle Spluga",
+        "photos": ["valdimello-1.jpg", "valdimello-2.jpg"]
+    }
+]

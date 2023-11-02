@@ -1,7 +1,8 @@
 [
     {
         "name": "Outdoor",
-        "image": "mountain.png"
+        "image": "mountain.png",
+        "url": "outdoor"
     },
     {
         "name": "Work wood",

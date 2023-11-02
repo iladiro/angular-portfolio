@@ -4,6 +4,7 @@ import hobbies from '../../../assets/data/hobbies.json';
 interface Hobby {
   name: string;
   image: string;
+  url?: string;
 }
 
 @Component({

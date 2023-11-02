@@ -27,7 +27,9 @@
       @include opacity(0);
       @include transition(all 0.3s ease-out);
       #{$this}__info{
-        margin-top: 23%;
+        @include transform(translateY(-50%));
+        position: relative;
+        top: 50%;
       }
       #{$this}__title{
         @include font-style(17px, #ffffff);

@@ -21,7 +21,7 @@
         "title": "Bracco",
         "image": "bracco.jpg",
         "description": "Web application that allows the management of work tickets.",
-        "technologies": ["Angular", "Bootstrap 4", "scss", "Git", "Font awesome", "PostgreSQL", "PostgREST"]                
+        "technologies": ["Angular 15", "Bootstrap 4", "scss", "Git", "Font awesome", "PostgreSQL", "PostgREST"]                
     },
     {
         "id": "#workModal",

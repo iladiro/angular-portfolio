@@ -24,6 +24,9 @@ import { CurriculumBlockComponent } from './components/curriculum/curriculum-blo
 import { CurriculumItemComponent } from './components/curriculum/curriculum-block/curriculum-item/curriculum-item.component';
 import { ModalComponent } from './shared/modal/modal.component';
 import { ProjectDetailsComponent } from './components/personal-projects/project-details/project-details.component';
+import { OutdoorComponent } from './views/outdoor/outdoor.component';
+import { OutdoorGalleryComponent } from './components/outdoor-gallery/outdoor-gallery.component';
+import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoor-gallery-item/outdoor-gallery-item.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { ProjectDetailsComponent } from './components/personal-projects/project-
     CurriculumBlockComponent,
     CurriculumItemComponent,
     ModalComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    OutdoorComponent,
+    OutdoorGalleryComponent,
+    OutdoorGalleryItemComponent
   ],
   imports: [
     CommonModule,
