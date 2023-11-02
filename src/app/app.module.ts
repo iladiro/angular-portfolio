@@ -27,6 +27,7 @@ import { ProjectDetailsComponent } from './components/personal-projects/project-
 import { OutdoorComponent } from './views/outdoor/outdoor.component';
 import { OutdoorGalleryComponent } from './components/outdoor-gallery/outdoor-gallery.component';
 import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoor-gallery-item/outdoor-gallery-item.component';
+import { CarouselComponent } from './shared/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoo
     ProjectDetailsComponent,
     OutdoorComponent,
     OutdoorGalleryComponent,
-    OutdoorGalleryItemComponent
+    OutdoorGalleryItemComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,

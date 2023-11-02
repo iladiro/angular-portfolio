@@ -15,5 +15,11 @@ export interface Outdoor {
 export class OutdoorComponent {
 
   list: Outdoor[] = outdoor;
+  slides!: string[];
+
+  openGallery(event: any) {
+    console.log(event);
+    this.slides = event.slides;
+  }
 
 }
