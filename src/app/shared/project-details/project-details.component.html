@@ -1,4 +1,4 @@
-<div class="row" *ngIf="project">
+<div class="row mt-4" *ngIf="project">
   <div class="col-md-6 modal-body__image">
     <img [src]="'../../../assets/images/' + project.image" class="img-rounded img-fluid" [alt]="project.title">
   </div>
@@ -10,7 +10,7 @@
       <p>
        {{project.description}}
       </p>
-      <h4>Technologies used:</h4>
+      <h4>Used technologies:</h4>
       <ul>
         <li *ngFor="let item of project.technologies">
           {{item}}
@@ -19,14 +19,6 @@
     </div>
   </div>
 </div>
-<div class="text-center">
-  <!-- <%= partial('partials/shared/button-block',
-      locals: {
-        link: link,
-        classes: 'btn-lg text-uppercase button-block',
-        icon: 'fa fa-external-link',
-        text_link: 'view website'
-      }
-    )
-  %> -->
+<div class="text-center mt-4">
+  <a [href]="project.link" class="btn btn-main-color text-uppercase" target="_blank">view website</a>
 </div>
