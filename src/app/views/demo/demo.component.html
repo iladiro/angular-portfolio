@@ -20,6 +20,7 @@
     </div>
     <div class="py-4 mb-4">
         <iladiro-angular-material-table 
+            (callToActionEvent)="callToActiontable($event)"
             [customClass]="'p-4 bg-white'"
             [list]="tableList" 
             [displayedColumns]="['name', 'surname', 'gender', 'buttons']">

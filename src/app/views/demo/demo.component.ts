@@ -47,6 +47,10 @@ export class DemoComponent {
     this.tableList = demoMaterialTable;
   }
 
+  callToActiontable(event: any) {
+    console.log(event)
+  }
+
   clickOnSlide(event: any) {
     console.log(event)
   }
