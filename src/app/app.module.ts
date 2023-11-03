@@ -32,6 +32,7 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
 import { HobbyItemComponent } from './components/hobby/hobby-item/hobby-item.component';
 import { IladiroCounterModule } from '@iladiro/angular-counter';
 import { DemoComponent } from './views/demo/demo.component';
+import { IladiroAngularSliderLibraryModule } from '@iladiro/angular-slider';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { DemoComponent } from './views/demo/demo.component';
     AppRoutingModule,
     NgbModule,
     IladiroCounterModule,
+    IladiroAngularSliderLibraryModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],

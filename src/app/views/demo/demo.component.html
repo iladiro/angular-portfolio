@@ -1,9 +1,20 @@
 <div class="p-5">
-    <div class="border-bottom border-top p-4">
+    <div class="border-bottom border-top py-4">
         <iladiro-counter 
             [title]="'Countdown demo'"
             [startDate]="'2023/06/26 16:24:00'" 
             [endDate]="'2024/06/28 10:32:00'">
         </iladiro-counter>
     </div>    
+    <div class="border-bottom border-top py-4">
+        <iladiro-angular-slider
+            (clickSlideEvent)="clickOnSlide($event)" 
+            [paginatorArrowStart]="'bi bi-arrow-left-square'"
+            [paginatorArrowEnd]="'bi bi-arrow-right-square'"
+            [paginatorArrowPrev]="'bi bi-arrow-left'" 
+            [paginatorArrowNext]="'bi bi-arrow-right'" 
+            [slideList]="list"
+            [clickableSlide]="true">
+        </iladiro-angular-slider>
+    </div>
 </div>
