@@ -33,6 +33,8 @@ import { HobbyItemComponent } from './components/hobby/hobby-item/hobby-item.com
 import { IladiroCounterModule } from '@iladiro/angular-counter';
 import { DemoComponent } from './views/demo/demo.component';
 import { IladiroAngularSliderLibraryModule } from '@iladiro/angular-slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IladiroAngularMaterialTableLibraryModule } from '@iladiro/angular-material-table-library';
 
 @NgModule({
   declarations: [
@@ -66,10 +68,12 @@ import { IladiroAngularSliderLibraryModule } from '@iladiro/angular-slider';
   imports: [
     CommonModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
     IladiroCounterModule,
     IladiroAngularSliderLibraryModule,
+    IladiroAngularMaterialTableLibraryModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],

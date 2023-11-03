@@ -1,0 +1,128 @@
+[
+    {
+      "name": "Richard",
+      "surname": "Brown",
+      "gender": "male",
+      "buttons": [
+        {
+          "icon": "open_in_new",
+          "label": "View",
+          "action": "view",
+          "link": "",
+          "title": "View"
+        },
+        {
+          "icon": "delete",
+          "label": "",
+          "action": "delete",
+          "link": "",
+          "title": "Delete"
+        }
+      ]
+    },
+    {
+      "name": "Paolo",
+      "surname": "Rossi",
+      "gender": "male",
+      "buttons": [
+        {
+          "icon": "open_in_new",
+          "label": "View",
+          "action": "view",
+          "link": "",
+          "title": "View"
+        },
+        {
+          "icon": "delete",
+          "label": "",
+          "action": "delete",
+          "link": "",
+          "title": "Delete"
+        }
+      ]
+    },
+    {
+        "name": "Arthur",
+        "surname": "Cooper",
+        "gender": "male",
+        "buttons": [
+          {
+            "icon": "open_in_new",
+            "label": "View",
+            "action": "view",
+            "link": "",
+            "title": "View"
+          },
+          {
+            "icon": "delete",
+            "label": "",
+            "action": "delete",
+            "link": "",
+            "title": "Delete"
+          }
+        ]
+      },
+      {
+        "name": "Olivia",
+        "surname": "Parker",
+        "gender": "female",
+        "buttons": [
+          {
+            "icon": "open_in_new",
+            "label": "View",
+            "action": "view",
+            "link": "",
+            "title": "View"
+          },
+          {
+            "icon": "delete",
+            "label": "",
+            "action": "delete",
+            "link": "",
+            "title": "Delete"
+          }
+        ]
+      },
+      {
+        "name": "Anna",
+        "surname": "Parker",
+        "gender": "female",
+        "buttons": [
+          {
+            "icon": "open_in_new",
+            "label": "View",
+            "action": "view",
+            "link": "",
+            "title": "View"
+          },
+          {
+            "icon": "delete",
+            "label": "",
+            "action": "delete",
+            "link": "",
+            "title": "Delete"
+          }
+        ]
+      },
+      {
+        "name": "Alex",
+        "surname": "Watson",
+        "gender": "male",
+        "buttons": [
+          {
+            "icon": "open_in_new",
+            "label": "View",
+            "action": "view",
+            "link": "",
+            "title": "View"
+          },
+          {
+            "icon": "delete",
+            "label": "",
+            "action": "delete",
+            "link": "",
+            "title": "Delete"
+          }
+        ]
+      }
+  ]

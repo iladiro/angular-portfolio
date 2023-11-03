@@ -1,5 +1,14 @@
 import { Component } from '@angular/core';
+import { IladiroAMTButton } from '@iladiro/angular-material-table-library';
 import { IladiroAngularSlide } from '@iladiro/angular-slider';
+import demoMaterialTable from '../../../assets/data/demo-material-table.json';
+
+interface TableList {
+  name: string;
+  surname: string;
+  gender: string;
+  buttons?: IladiroAMTButton[];
+}
 
 @Component({
   selector: 'app-demo',
@@ -8,10 +17,11 @@ import { IladiroAngularSlide } from '@iladiro/angular-slider';
 })
 export class DemoComponent {
 
-  list!: IladiroAngularSlide[];
+  slides!: IladiroAngularSlide[];
+  tableList!: TableList[];
 
   constructor() {
-    this.list = [
+    this.slides = [
       {
         mediaSrc: '/assets/photos/tropea-1.jpg',
         title: "title",
@@ -32,7 +42,9 @@ export class DemoComponent {
         title: "title",
         link: "prova.html"
       }
-    ]
+    ];
+
+    this.tableList = demoMaterialTable;
   }
 
   clickOnSlide(event: any) {
