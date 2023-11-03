@@ -18,15 +18,15 @@
         "accountname": "IlCrochetDili"
     },
     {
+        "name": "instagram",
+        "icon": "bi bi-instagram",
+        "url": "https://www.instagram.com/ilcrochetdili/",
+        "accountname": "IlCrochetDili"
+    },
+    {
         "name": "github",
         "icon": "bi bi-github",
         "url": "https://github.com/iladiro",
         "accountname": "Iladiro"
-    },
-    {
-        "name": "envelope",
-        "icon": "bi bi-envelope",
-        "url": "mailto:dirosa.ilaria@gmail.com",
-        "accountname": "Ilaria Di Rosa"
     }
 ]
