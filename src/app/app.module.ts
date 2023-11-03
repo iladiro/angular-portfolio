@@ -30,6 +30,8 @@ import { OutdoorGalleryItemComponent } from './components/outdoor-gallery/outdoo
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './shared/carousel/carousel.component';
 import { HobbyItemComponent } from './components/hobby/hobby-item/hobby-item.component';
+import { IladiroCounterModule } from '@iladiro/angular-counter';
+import { DemoComponent } from './views/demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -57,13 +59,15 @@ import { HobbyItemComponent } from './components/hobby/hobby-item/hobby-item.com
     OutdoorGalleryComponent,
     OutdoorGalleryItemComponent,
     CarouselComponent,
-    HobbyItemComponent
+    HobbyItemComponent,
+    DemoComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    IladiroCounterModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],

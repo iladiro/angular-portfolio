@@ -15,6 +15,7 @@
     },
     {
         "name": "Software",
-        "image": "software.png"
+        "image": "software.png",
+        "url": "demo"
     }
 ]
