@@ -55,23 +55,6 @@
     },
     {
         "id": "#workModal",
-        "title": "Social sharing - Pure JavaScript",
-        "image": "socialSharing.jpg",
-        "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Middleman", "Bourbon", "Neat"],
-        "buttons": [
-            {
-                "label": "View web tool",
-                "url": "http://ilariadirosa.it/social-sharing/"
-            },
-            {
-                "label": "Repository github",
-                "url": "https://github.com/iladiro/social-sharing"
-            }
-        ]   
-    },
-    {
-        "id": "#workModal",
         "title": "Social sharing - Angular 4",
         "image": "socialSharing.jpg",
         "description": "SocialSharing is a utility to help you to generate the mark up of a different social platform.",
