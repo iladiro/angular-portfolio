@@ -1,18 +1,18 @@
 <div class="cd-timeline position-relative d-flex wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
     <div class="pe-3">
-        <div class="cd-timeline__icon rounded-circle text-center d-flex align-items-center justify-content-center">
+        <div class="cd-timeline__icon text-white position-relative bg-main-color fs-4 rounded-circle text-center d-flex align-items-center justify-content-center">
           <i [class]="icon"></i>
         </div>
     </div>
-    <div class="cd-timeline__content">
-        <h3 class="cd-timeline__title fw-light mt-0">
+    <div class="cd-timeline__content m-3 mt-0">
+        <h3 class="cd-timeline__title fw-light mt-0 text-main-color">
             {{ title }}
         </h3>
         <div class="cd-timeline__body">
         <h4 class="cd-timeline__subtitle fw-light mt-0">
             {{ subtitle }}
         </h4>
-        <p class="cd-timeline__description fw-light">
+        <p class="cd-timeline__description fw-light text-light-grey">
             {{ description }}
         </p>
         <button *ngIf="linkText" type="button" class="text-uppercase fw-normal cd-timeline__link p-0 border-0" data-bs-toggle="modal" [attr.data-bs-target]="dataTarget">
