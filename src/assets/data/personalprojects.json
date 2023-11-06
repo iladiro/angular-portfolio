@@ -71,7 +71,7 @@
         "title": "Slider - Angular 15",
         "image": "slider.png",
         "description": "Angular Slider plugin is flexible and easily customizable",
-        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 4", "Typescript"],
+        "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Angular 15", "Typescript"],
         "buttons": [
             {
                 "label": "Npm package",
