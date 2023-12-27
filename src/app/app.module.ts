@@ -35,6 +35,9 @@ import { DemoComponent } from './views/demo/demo.component';
 import { IladiroAngularSliderLibraryModule } from '@iladiro/angular-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IladiroAngularMaterialTableLibraryModule } from '@iladiro/angular-material-table-library';
+import { TutorialsComponent } from './components/tutorials/tutorials.component';
+import { JavascriptDocComponent } from './components/tutorials/javascript-doc/javascript-doc.component';
+import { VariabiliInJavascriptComponent } from './components/tutorials/javascript-doc/variabili-in-javascript/variabili-in-javascript.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +66,10 @@ import { IladiroAngularMaterialTableLibraryModule } from '@iladiro/angular-mater
     OutdoorGalleryItemComponent,
     CarouselComponent,
     HobbyItemComponent,
-    DemoComponent
+    DemoComponent,
+    TutorialsComponent,
+    JavascriptDocComponent,
+    VariabiliInJavascriptComponent
   ],
   imports: [
     CommonModule,

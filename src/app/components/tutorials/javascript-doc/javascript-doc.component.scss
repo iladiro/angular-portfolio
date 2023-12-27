@@ -1,0 +1,16 @@
+@import "../../../../assets/stylesheets/helpers/custom-mixin";
+@import "../../../../assets/stylesheets/helpers/variables";
+
+.lesson-block {
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../assets/images/javascript-code.png");
+    &:before {
+        content: "";
+        display: block;
+        @include size(100%, 100%);
+        @include position(left, 0, top, 0, -1, absolute);
+        background-color: #000;
+        border-radius: 0.375rem;
+    }
+}

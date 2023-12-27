@@ -1,0 +1,27 @@
+<div class="p-5">
+    <app-section-title [icon]="''" [title]="'Le variabili in javascript: differenze tra var, let, e const'" [customClass]="'mb-4'"></app-section-title>
+
+    <p>Prima dell'introduzione nel 2015 di <strong>ES6</strong> esisteva un solo modo per dichiarare le variabile, ossia con la parola chiave <strong>var</strong>.</p>
+    <p>
+        Tra le differenze principali che ci sono tra queste 2 keywords c'è lo <strong>scope</strong>, che può essere <strong>locale</strong>, 
+        <strong>globale</strong>, <strong>funzionale</strong> o di tipo <strong>blocco</strong>.
+    </p>
+    <p>Analizziamo una alla volta tutte e 3 le parole chiave.</p>
+
+    <h4>VAR</h4>
+    <p>
+        Come già detto sopra, prima del 2015 esisteva solo la parola chiave var per dichiarare le variabile.<br><br>
+        Per quanto riguarda <strong>var</strong>, il suo scope, se dichiarata dentro ad una funzione, si parla di <strong>functional scope</strong>, ciò significa che la variabile può essere usata solo all'interno della funzione in cui è stata dichiarata e quindi questo uquivale anche a dire che la variabile ha un local scope (la funzione).<br><br>
+        Se chiamata all'esterno il risultato sarà undefined
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+        <code>
+            <!-- function prova() {
+                var nome = "ilaria"
+            }
+            nome -->
+            RISULTATO: Uncaught ReferenceError: nome is not defined
+        </code>
+    </pre>
+</div>

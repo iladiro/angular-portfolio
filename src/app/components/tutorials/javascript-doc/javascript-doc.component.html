@@ -1,0 +1,10 @@
+<div class="p-5">
+    <app-section-title [icon]="''" [title]="'Le Basi di Javascript'" [customClass]="'mb-4'"></app-section-title>
+    <div class="row">
+        <div class="col-3" *ngFor="let lesson of list">
+            <a [routerLink]="lesson.url" class="d-block text-decoration-none lesson-block border rounded p-5 text-center fs-4 fn-roboto-serif fw-bolder text-warning">
+                {{lesson.title}}
+            </a>            
+        </div>
+    </div>
+</div>
