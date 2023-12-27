@@ -5,6 +5,7 @@ import { OutdoorComponent } from './views/outdoor/outdoor.component';
 import { DemoComponent } from './views/demo/demo.component';
 import { JavascriptDocComponent } from './components/tutorials/javascript-doc/javascript-doc.component';
 import { VariabiliInJavascriptComponent } from './components/tutorials/javascript-doc/variabili-in-javascript/variabili-in-javascript.component';
+import { ThisInJavascriptComponent } from './components/tutorials/javascript-doc/this-in-javascript/this-in-javascript.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'js-doc/variabili-in-javascript',
     component: VariabiliInJavascriptComponent
+  },
+  {
+    path: 'js-doc/this-in-javascript',
+    component: ThisInJavascriptComponent
   },
   {
     path: 'demo',

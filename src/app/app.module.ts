@@ -38,6 +38,7 @@ import { IladiroAngularMaterialTableLibraryModule } from '@iladiro/angular-mater
 import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { JavascriptDocComponent } from './components/tutorials/javascript-doc/javascript-doc.component';
 import { VariabiliInJavascriptComponent } from './components/tutorials/javascript-doc/variabili-in-javascript/variabili-in-javascript.component';
+import { ThisInJavascriptComponent } from './components/tutorials/javascript-doc/this-in-javascript/this-in-javascript.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { VariabiliInJavascriptComponent } from './components/tutorials/javascrip
     DemoComponent,
     TutorialsComponent,
     JavascriptDocComponent,
-    VariabiliInJavascriptComponent
+    VariabiliInJavascriptComponent,
+    ThisInJavascriptComponent
   ],
   imports: [
     CommonModule,
