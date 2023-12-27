@@ -23,12 +23,25 @@
     <pre class="language-markup">
     <code>
     function prova() &#123;
-        var nome = "ilaria"
+        var name = "ilaria"
     &#125;
 
-    > nome
+    > name
 
-    <strong>RISULTATO</strong>: Uncaught ReferenceError: nome is not defined
+    <strong>RISULTATO</strong>: Uncaught ReferenceError: name is not defined
+    </code>    
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    var name = "Ilaria"
+    function prova() &#123;
+        var name = "Elisa"
+    &#125;
+
+    > name
+
+    <strong>RISULTATO</strong>: Ilaria
     </code>    
     </pre>
 
@@ -42,8 +55,8 @@
     <p><strong>ESEMPIO:</strong></p>
     <pre class="language-markup">
     <code>
-    console.log(nome);
-    var nome = "ilaria";
+    console.log(name);
+    var name = "ilaria";
 
     <strong>RISULTATO</strong>: undefined
     </code>
@@ -51,9 +64,9 @@
     <p>Javascript è come se leggesse quel codice così</p>
     <pre class="language-markup">
     <code>
-    var nome;
-    console.log(nome);
-    var nome = "ilaria";
+    var name;
+    console.log(name);
+    var name = "ilaria";
     </code>
     </pre>
 
@@ -65,18 +78,18 @@
     <p><strong>ESEMPIO:</strong></p>
     <pre class="language-markup">
     <code>
-    var nome = "Ilaria";
-    var nome = "Sarah";
-    console.log(nome);
+    var name = "Ilaria";
+    var name = "Sarah";
+    console.log(name);
     <strong>RISULTATO</strong>: Sarah
     </code>
     </pre>
     oppure
     <pre class="language-markup">
     <code>
-    var nome = "Ilaria";
-    nome = "Sarah";
-    console.log(nome);
+    var name = "Ilaria";
+    name = "Sarah";
+    console.log(name);
 
     <strong>RISULTATO</strong>: Sarah
     </code>
@@ -136,7 +149,7 @@
     </pre>
 
     <p>
-        Inoltre a differenza di <code><strong>var</strong></code>, con <code><strong>let</strong></code> non è possibile dichiarare due variabili con lo stesso nome 
+        Inoltre a differenza di <code><strong>var</strong></code>, con <code><strong>let</strong></code> non è possibile dichiarare due variabili con lo stesso name 
         nello stesso scope, otterremo un errore, mentre <code><strong>var</strong></code> restituirebbe il valore sovrascritto.
     </p>
     <p><strong>ESEMPIO:</strong></p>
@@ -195,8 +208,8 @@
     <p><strong>ESEMPIO:</strong></p>
     <pre class="language-markup">
     <code>
-    const nome = "Ilaria";
-    nome = "Elisa";
+    const name = "Ilaria";
+    name = "Elisa";
 
     <strong>RISULTATO</strong>: Uncaught TypeError: Assignment to constant variable.
     </code>
@@ -204,10 +217,10 @@
 
     <pre class="language-markup">
     <code>
-    const nome = "Ilaria";
-    const nome= "Elisa";
+    const name = "Ilaria";
+    const name= "Elisa";
 
-    <strong>RISULTATO</strong>: Uncaught SyntaxError: Identifier 'nome' has already been declared
+    <strong>RISULTATO</strong>: Uncaught SyntaxError: Identifier 'name' has already been declared
     </code>
     </pre>
 
@@ -218,7 +231,7 @@
     <p><strong>ESEMPIO:</strong></p>
     <pre class="language-markup">
     <code>
-    const cognome;
+    const surname;
 
     <strong>RISULTATO</strong>: Uncaught SyntaxError: Missing initializer in const declaration
     </code>
