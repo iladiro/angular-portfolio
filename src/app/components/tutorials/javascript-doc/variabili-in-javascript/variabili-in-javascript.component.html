@@ -1,27 +1,263 @@
 <div class="p-5">
     <app-section-title [icon]="''" [title]="'Le variabili in javascript: differenze tra var, let, e const'" [customClass]="'mb-4'"></app-section-title>
 
-    <p>Prima dell'introduzione nel 2015 di <strong>ES6</strong> esisteva un solo modo per dichiarare le variabile, ossia con la parola chiave <strong>var</strong>.</p>
+    <p>Prima dell'introduzione nel 2015 di <strong>ES6</strong> esisteva un solo modo per dichiarare le variabile, ossia con la parola chiave <code><strong>var</strong></code>.</p>
     <p>
         Tra le differenze principali che ci sono tra queste 2 keywords c'è lo <strong>scope</strong>, che può essere <strong>locale</strong>, 
         <strong>globale</strong>, <strong>funzionale</strong> o di tipo <strong>blocco</strong>.
     </p>
     <p>Analizziamo una alla volta tutte e 3 le parole chiave.</p>
 
-    <h4>VAR</h4>
+    <hr>
+
+    <h4 class="text-uppercase">VAR</h4>
     <p>
         Come già detto sopra, prima del 2015 esisteva solo la parola chiave var per dichiarare le variabile.<br><br>
-        Per quanto riguarda <strong>var</strong>, il suo scope, se dichiarata dentro ad una funzione, si parla di <strong>functional scope</strong>, ciò significa che la variabile può essere usata solo all'interno della funzione in cui è stata dichiarata e quindi questo uquivale anche a dire che la variabile ha un local scope (la funzione).<br><br>
-        Se chiamata all'esterno il risultato sarà undefined
+        Per quanto riguarda <code><strong>var</strong></code>, il suo scope, se dichiarata dentro ad una funzione, si parla di <strong>functional scope</strong>, 
+        ciò significa che la variabile può essere usata solo all'interno della funzione in cui è stata dichiarata e quindi questo uquivale anche a dire che 
+        la variabile ha un local scope (la funzione).<br><br>
+        Se chiamata all'esterno il risultato sarà un errore
+    </p>
+
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    function prova() &#123;
+        var nome = "ilaria"
+    &#125;
+
+    > nome
+
+    <strong>RISULTATO</strong>: Uncaught ReferenceError: nome is not defined
+    </code>    
+    </pre>
+
+    <p>
+        In javascript la parola chiave <code><strong>var</strong></code> restituisce sempre qualcosa, 
+        se per esempio chiamata prima della dichiarazione, non andrà in errore ma restituirà <code><strong>undefined</strong></code>, 
+        a differenza di <code><strong>let</strong></code> e <code><strong>const</strong></code> che se chiamate prima di essere dichiarate 
+        restituiranno errore.
+    </p>
+
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    console.log(nome);
+    var nome = "ilaria";
+
+    <strong>RISULTATO</strong>: undefined
+    </code>
+    </pre>
+    <p>Javascript è come se leggesse quel codice così</p>
+    <pre class="language-markup">
+    <code>
+    var nome;
+    console.log(nome);
+    var nome = "ilaria";
+    </code>
+    </pre>
+
+    <p>
+        Come possiamo vedere dall'esempio precedente, con <code><strong>var</strong></code> è possibile dichiarare una variabile ma non inizializzarla,
+        non sarà motivo di errore, cosa che invece succederebbe se usassimo <code><strong>const</strong></code>.<br><br>
+        inoltre sarà possibile ridichiararle ed aggiornarle.
     </p>
     <p><strong>ESEMPIO:</strong></p>
     <pre class="language-markup">
-        <code>
-            <!-- function prova() {
-                var nome = "ilaria"
-            }
-            nome -->
-            RISULTATO: Uncaught ReferenceError: nome is not defined
-        </code>
+    <code>
+    var nome = "Ilaria";
+    var nome = "Sarah";
+    console.log(nome);
+    <strong>RISULTATO</strong>: Sarah
+    </code>
+    </pre>
+    oppure
+    <pre class="language-markup">
+    <code>
+    var nome = "Ilaria";
+    nome = "Sarah";
+    console.log(nome);
+
+    <strong>RISULTATO</strong>: Sarah
+    </code>
+    </pre>
+
+    <hr>
+
+    <h4 class="text-uppercase">let</h4>
+    <p>
+        Con l'introduzione delle parole chiave <code><strong>let</strong></code> e <code><strong>const</strong></code> è stato introdotto un nuovo tipo di scope, 
+        chiamato <strong>block scope</strong>.
+        I block scope, sono blocchi di codice <strong>delimitati dalle parentesi graffe</strong>, ciò significa che la visibilità di quella variabile è limitata all'interno delle 
+        parentesi graffe che la contengono.
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    var i = 1;
+    if (true) &#123;
+        let i = 3;
+    &#125;
+    console.log(i);
+
+    <strong>RISULTATO</strong>: “i” sarà sempre 1 perchè la variabile let dichiarata dentro
+    l'if non è visibile al di fuori del if che la contiene
+    </code>
+    </pre>
+
+    <p>
+        Se io invece usassi <code><strong>var</strong></code> in tutte e due i punti del codice, il risultato sarebbe 3, perchè la variabile “i” verrà sovrascritta 
+        da quella che si trova dentro al nostro “if”
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    var i = 1;
+    if (true) &#123;
+        var i = 3;
+    &#125;
+    console.log(i);
+
+    <strong>RISULTATO</strong>: 3
+    </code>
+    </pre>
+
+    <p>
+        Come con <code><strong>var</strong></code>, usando let è possibile dichiarare la variabile senza inizializzarla
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    let i;
+    console.log(i);
+
+    <strong>RISULTATO</strong>: undefined
+    </code>
+    </pre>
+
+    <p>
+        Inoltre a differenza di <code><strong>var</strong></code>, con <code><strong>let</strong></code> non è possibile dichiarare due variabili con lo stesso nome 
+        nello stesso scope, otterremo un errore, mentre <code><strong>var</strong></code> restituirebbe il valore sovrascritto.
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    var x = 1;
+    var x = 2;
+
+    <strong>RISULTATO</strong>: 2
+    </code>
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    let z = 1;
+    let z = 2;
+
+    <strong>RISULTATO</strong>: Uncaught SyntaxError: Identifier 'z' has already been declared
+    </code>
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    var y = 4;
+    let y = 7;
+
+    <strong>RISULTATO</strong>: Uncaught SyntaxError: Identifier 'y' has already been declared
+    </code>
+    </pre>
+
+    <p>
+        Una variabile dichiarata con la keyword <code><strong>let</strong></code> però puo' essere aggiornata
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    let i = 1;
+    i = 2;
+    console.log(i);
+
+    <strong>RISULTATO</strong>: 2
+    </code>
+    </pre>
+
+    <hr>
+
+    <h4 class="text-uppercase">const</h4>
+    <p>
+        Anch'esse sono state introdotte con <strong>ES6</strong>, e il loro scope è il <strong>blocco</strong> (block scope) 
+        in cui sono contenute tra le parentesi graffe.<br>
+        A differenza di <code><strong>let</strong></code> e <code><strong>var</strong></code> non può essere 
+        sovrascritta, infatti const sta per costante, il che significa che il suo valore è costante nel tempo e 
+        non può cambiare, e neanche ridichiarata proprio come <code><strong>let</strong></code>
+    </p>
+
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    const nome = "Ilaria";
+    nome = "Elisa";
+
+    <strong>RISULTATO</strong>: Uncaught TypeError: Assignment to constant variable.
+    </code>
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    const nome = "Ilaria";
+    const nome= "Elisa";
+
+    <strong>RISULTATO</strong>: Uncaught SyntaxError: Identifier 'nome' has already been declared
+    </code>
+    </pre>
+
+    <p>
+        Oltre a quanto detto prima devono essere valorizzate nel momento della dichiarazione.<br>
+        Se dovessimo infatti dichiarare una costante senza inizializzarla ci verrebbe resituito errore.
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    const cognome;
+
+    <strong>RISULTATO</strong>: Uncaught SyntaxError: Missing initializer in const declaration
+    </code>
+    </pre>
+
+    <p>
+        Se è vero che usando <code><strong>const</strong></code> non è possibile cambiare il suo valore, 
+        è altrettanto vero che usandola con un valore di tipo oggetto, possiamo modificare il valore delle sue proprietà.
+    </p>
+    <p><strong>ESEMPIO:</strong></p>
+    <pre class="language-markup">
+    <code>
+    const user = &#123;
+        name: "Ilaria",
+        surname: "Di Rosa"
+    &#125;
+    
+    user = &#123;
+        name: "Marioa",
+        surname: "Rossi"
+    &#125;
+
+    <strong>RISULTATO</strong>: Uncaught TypeError: invalid assignment to const 'saluti'
+    </code>
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    const user = &#123;
+        name: "Ilaria",
+        surname: "Di Rosa"
+    &#125;
+        
+    user.name = "Elisa";
+        
+    <strong>RISULTATO</strong>: &#123;
+        name: "Elisa",
+        surname: "Di Rosa"
+    &#125;
+    </code>
     </pre>
 </div>

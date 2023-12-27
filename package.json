@@ -25,6 +25,7 @@
     "@iladiro/angular-material-table-library": "^0.0.8",
     "@iladiro/angular-slider": "^0.0.12",
     "@ng-bootstrap/ng-bootstrap": "^15.1.2",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
     "jquery": "^3.7.1",
