@@ -121,4 +121,31 @@
     <strong>RISULTATO</strong>: Il <strong>this</strong> sarà l'oggetto <strong>person</strong> dal quale abbiamo chiamato il metodo <strong>print</strong>.
     </code>    
     </pre>
+
+    <p>Prendiamo un ultimo esempio in considerazione</p>
+    <p>
+        Creiamo un oggetto con 2 proprietà e 1 metodo. Nel metodo showList cicliamo il nostro array teams
+        usando un arrow function.<br>
+        Come potremmo notare il <strong>this</strong> della nostra arrow function fa riferimento al this 
+        della nostra funzione showList.
+    </p>
+
+    <pre class="language-markup">
+    <code>
+    let group = &#123;
+        name: "Our Teams",
+        teams: ["Ilaria", "Fabio", "Alice"],
+        
+        showList: function() &#123;
+            this.teams.forEach(
+                team => alert(this.name + ': ' + team)
+            );
+        &#125;
+    &#125;;
+        
+    group.showList();
+
+    <strong>RISULTATO</strong>: il <strong>this</strong> sarà l'oggetto <strong>group</strong>
+    </code>    
+    </pre>    
 </div>
