@@ -3,8 +3,8 @@
     <p>
         L'oggetto <strong>this</strong> in javascript non è sempre lo stesso, 
         cambia in base al contesto in cui si trova o da cui viene chiamato, potrebbe essere l'oggetto window,
-        document oppure un button.
-        Per esempio, se chiamato all'interno di una funzione normale il <strong>this</strong>
+        document oppure un button.<br><br>
+        Per esempio, se chiamato all'interno di una funzione normale, dichiarata nel global scope, il <strong>this</strong>
         sarà l'oggetto <strong>window</strong>.<br><br>
         Se invece al click di un bottone chiamassi una funzione a cui passare il this, quest ultimo
         sarà il bottone stesso su cui è avvenuta l'azione.<br><br>
@@ -71,8 +71,10 @@
 
     console.log(init)
 
-    <strong>RISULTATO</strong>: Il <strong>this</strong>, sia direttamente all'interno della nostra funzione 
-    che il <strong>this</strong> dentro al metodo fullname sarà l'oggetto <strong>Person</strong>
+    <strong>RISULTATO</strong>: Il <strong>this</strong>, sia direttamente all'interno della nostra 
+    funzione che il <strong>this</strong> dentro al metodo fullname sarà l'oggetto <strong>Person</strong>.
+    Otterremo lo stesso risultato anche se usassimo una arrow function per dichiarare il metodo fullname, 
+    perchè se pur lei non abbia un suo this, il contesto esterno in cui è racchiusa lo ha.
     </code>    
     </pre>
 
