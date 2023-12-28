@@ -1,7 +1,7 @@
 <div>
     <app-section-title [icon]="''" [title]="'Tutorials'" [customClass]="'mb-4'"></app-section-title>
     <div class="row gap-4">
-        <a [routerLink]="tutorial.url" *ngFor="let tutorial of list" class="col-4">
+        <a [routerLink]="tutorial.url" *ngFor="let tutorial of list" class="col col-md-4 mb-4">
             <div class="bg-black p-5 border text-center">
                 <img [src]="'./assets/images/' + tutorial.image">
             </div>

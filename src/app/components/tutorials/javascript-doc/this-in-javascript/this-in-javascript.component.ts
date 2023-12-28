@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ThisInJavascriptComponent {
 
+  test(value: any) {
+    console.log(value)
+  }
+
 }

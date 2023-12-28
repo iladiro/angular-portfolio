@@ -1,2 +1,122 @@
 <div class="p-5">
     <app-section-title [icon]="''" [title]="'Il this in javascript'" [customClass]="'mb-4'"></app-section-title>
+    <p>
+        L'oggetto <strong>this</strong> in javascript non è sempre lo stesso, 
+        cambia in base al contesto in cui si trova o da cui viene chiamato, potrebbe essere l'oggetto window,
+        document oppure un button.
+        Per esempio, se chiamato all'interno di una funzione normale il <strong>this</strong>
+        sarà l'oggetto <strong>window</strong>.<br><br>
+        Se invece al click di un bottone chiamassi una funzione a cui passare il this, quest ultimo
+        sarà il bottone stesso su cui è avvenuta l'azione.<br><br>
+        Di seguito qualche esempio che possiamo eseguire in console.
+    </p>
+    <p>
+        <strong>ESEMPIO:</strong>
+    </p>
+    <pre class="language-markup">
+    <code>
+    function test() &#123;
+        console.log(this)
+    &#125;
+    test()
+
+    <strong>RISULTATO</strong>: Il <code><strong>this</strong></code> è l'oggetto Window
+    </code>    
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    function test(value) &#123;
+        console.log(value)
+    &#125;
+    
+    &#60;button onclick="test(this)"&#62;Click&#60;/button&#62;
+
+    <strong>RISULTATO</strong>: Il <code><strong>this</strong></code> è il bottone stesso
+    </code>    
+    </pre>
+
+    <p>
+        Lo stesso ragionamento non è valido se usassimo le arrow function, su cui approfondiremo più 
+        avanti, per cui il <strong>this</strong> è chi lo contiene.
+    </p>
+
+    <p>
+        <strong>ESEMPIO:</strong>
+    </p>
+    <pre class="language-markup">
+    <code>
+    const test = () => &#123;
+        console.log(this)
+    &#125;
+
+    <strong>RISULTATO</strong>: Il <code><strong>this</strong></code> anche in questo caso è l'oggetto Window che contiene la funzione
+    </code>    
+    </pre>
+
+    <p>Un altro caso che possiamo analizzare riguarda la funzione costruttrice.</p>
+
+    <p>
+        <strong>ESEMPIO:</strong>
+    </p>
+    <pre class="language-markup">
+    <code>
+    function Person() &#123;
+        console.log(this);
+        this.fullname = function() &#123;
+            console.log(this)
+        &#125;
+    &#125;
+    const init = new Person();
+
+    console.log(init)
+
+    <strong>RISULTATO</strong>: Il <strong>this</strong>, sia direttamente all'interno della nostra funzione 
+    che il <strong>this</strong> dentro al metodo fullname sarà l'oggetto <strong>Person</strong>
+    </code>    
+    </pre>
+
+    <p>Se io invece dichiarassi un oggetto person con i suoi metodi e le sue proprietà, quale sarà in nostro this?</p>
+
+    <p>
+        <strong>ESEMPIO:</strong>
+    </p>
+    <pre class="language-markup">
+    <code>
+    var person = &#123;
+        print: () => &#123;
+            console.log(this)
+        &#125;,
+        add: (name) => &#123;
+            console.log(name)
+        &#125;
+    &#125;
+
+    person.print()
+
+    <strong>RISULTATO</strong>: Il <strong>this</strong>, in questo caso sarà l'oggetto Window, perchè
+    le arrow function non hanno un proprio this, infatti il valore di <strong>this</strong>, viene preso dal contesto 
+    esterno.
+    Mentre se eseguiamo in console l'esempio successivo, che usa e function normali e non le arrow 
+    function, potremmo vedere che il <strong>this</strong> è l'oggetto <strong>person</strong>.
+    </code>    
+    </pre>
+
+    <pre class="language-markup">
+    <code>
+    var person = &#123;
+        name: "Ilaria",
+        print: function() &#123;
+            console.log(this, this.name)
+        &#125;,
+        add: function(name) &#123;
+            console.log(name)
+        &#125;
+    &#125;
+
+    person.print();
+
+    <strong>RISULTATO</strong>: Il <strong>this</strong> sarà l'oggetto <strong>person</strong> dal quale abbiamo chiamato il metodo <strong>print</strong>.
+    </code>    
+    </pre>
+</div>
