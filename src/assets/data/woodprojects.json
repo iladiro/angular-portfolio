@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Baule shabby",
+        "photo": "wood-1.jpg",
+        "description": "Dal recupero di un bancale ho creato un baule shabby style"      
+    },
+    {
+        "name": "Lampadario rustico",
+        "photo": "wood-2.jpg",
+        "description": "Dal recupero nel bosco di un ramo ho realizzato un lampadario"      
+    },
+    {
+        "name": "Porta ombrelli",
+        "photo": "wood-3.jpeg",
+        "description": "Dal recupero di un bancale ho riprodotto un piccolo porta ombrelli"      
+    },
+    {
+        "name": "Lampada da tavolo",
+        "photo": "wood-4.jpg",
+        "description": "Dal recupero di un piccolo tronco dal lago di Como ho realizzato una lampada da tavolo"      
+    },
+    {
+        "name": "Sgabello",
+        "photo": "wood-5.jpeg",
+        "description": "Dal recupero di pezzi di legno di scarto ho realizzato un piccolo sgabello"      
+    }
+]

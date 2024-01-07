@@ -39,6 +39,7 @@ import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { JavascriptDocComponent } from './components/tutorials/javascript-doc/javascript-doc.component';
 import { VariabiliInJavascriptComponent } from './components/tutorials/javascript-doc/variabili-in-javascript/variabili-in-javascript.component';
 import { ThisInJavascriptComponent } from './components/tutorials/javascript-doc/this-in-javascript/this-in-javascript.component';
+import { WoodProjectsComponent } from './views/wood/wood-projects.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { ThisInJavascriptComponent } from './components/tutorials/javascript-doc
     TutorialsComponent,
     JavascriptDocComponent,
     VariabiliInJavascriptComponent,
-    ThisInJavascriptComponent
+    ThisInJavascriptComponent,
+    WoodProjectsComponent
   ],
   imports: [
     CommonModule,

@@ -6,7 +6,8 @@
     },
     {
         "name": "Wood work",
-        "image": "wood.png"
+        "image": "wood.png",
+        "url": "woodwork"
     },
     {
         "name": "Crochet",

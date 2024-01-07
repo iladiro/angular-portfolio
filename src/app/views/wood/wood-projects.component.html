@@ -1,0 +1,13 @@
+<div class="p-5">
+    <app-section-title [icon]="''" [title]="'Wood projects'" [customClass]="'mb-4'"></app-section-title>
+
+    <div class="galleria">
+        <figure class="galleria__elemento" [class]="'galleria__elemento--' + i" *ngFor="let item of list; let i = index">
+            <img
+                [src]="'./assets/photos/' + item.photo"
+                [alt]="item.name"
+                class="galleria__immagine"
+            />
+        </figure>
+    </div>   
+</div>

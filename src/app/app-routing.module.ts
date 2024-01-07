@@ -6,6 +6,7 @@ import { DemoComponent } from './views/demo/demo.component';
 import { JavascriptDocComponent } from './components/tutorials/javascript-doc/javascript-doc.component';
 import { VariabiliInJavascriptComponent } from './components/tutorials/javascript-doc/variabili-in-javascript/variabili-in-javascript.component';
 import { ThisInJavascriptComponent } from './components/tutorials/javascript-doc/this-in-javascript/this-in-javascript.component';
+import { WoodProjectsComponent } from './views/wood/wood-projects.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'outdoor',
     component: OutdoorComponent
+  },
+  {
+    path: 'woodwork',
+    component: WoodProjectsComponent
   },
   {
     path: 'js-doc',
