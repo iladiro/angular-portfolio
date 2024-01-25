@@ -1,5 +1,10 @@
 [
     {
+        "name": "Software",
+        "image": "software.png",
+        "url": "demo"
+    },
+    {
         "name": "Outdoor",
         "image": "mountain.png",
         "url": "outdoor"
@@ -13,10 +18,5 @@
         "name": "Crochet",
         "image": "crochet.png",
         "externalUrl": "https://ilcrochetdili.netlify.app/"
-    },
-    {
-        "name": "Software",
-        "image": "software.png",
-        "url": "demo"
     }
 ]
