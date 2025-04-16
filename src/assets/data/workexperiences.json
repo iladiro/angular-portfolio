@@ -56,7 +56,7 @@
     {
         "id": "exp-7",
         "icon": "bi bi-code-slash",
-        "title": "From June 2023",
+        "title": "From June 2023 to December 2024",
         "subtitle": "Esis - Atumtech",
         "description": "I am currently working as a frontend consultant at AtumTech",
         "dataTarget": "",
@@ -64,6 +64,15 @@
     },
     {
         "id": "exp-8",
+        "icon": "bi bi-code-slash",
+        "title": "From February 2025 to April 2025",
+        "subtitle": "K2 - Crispy Bacon",
+        "description": "I've been supporting Crispy Bacon's team on refactoring part of Angular web application, integrating new API as microservices components",
+        "dataTarget": "",
+        "linkText": ""
+    },
+    {
+        "id": "exp-9",
         "icon": "bi bi-file-earmark",
         "title": "View my curriculum...",
         "subtitle": "...and download it",
