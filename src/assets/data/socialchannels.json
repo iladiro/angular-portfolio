@@ -2,8 +2,8 @@
     {
         "name": "facebook",
         "icon": "bi bi-facebook",
-        "url": "https://www.facebook.com/ilaria.d.rosa.5",
-        "accountname": "Ilaria Di Rosa"
+        "url": "https://www.facebook.com/ilcrochetdili/",
+        "accountname": "IlCrochetDily"
     },
     {
         "name": "linkedin",
@@ -14,14 +14,14 @@
     {
         "name": "pinterest",
         "icon": "bi bi-pinterest",
-        "url": "https://www.pinterest.it/IlCrochetDili/",
-        "accountname": "IlCrochetDili"
+        "url": "https://www.pinterest.it/IlCrochetDily/",
+        "accountname": "IlCrochetDily"
     },
     {
         "name": "instagram",
         "icon": "bi bi-instagram",
-        "url": "https://www.instagram.com/ilcrochetdili/",
-        "accountname": "IlCrochetDili"
+        "url": "https://www.instagram.com/ilcrochetdily/",
+        "accountname": "IlCrochetDily"
     },
     {
         "name": "github",

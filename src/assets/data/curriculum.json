@@ -26,7 +26,12 @@
       "title": "WORK EXPERIENCE",
       "list": [
         {
-          "label": "From June 2023",
+          "label": "From February 2025 to April 2025",
+          "title": "K2 - CrispyBacon",
+          "description": "I worked at k2 consulting group as CrispyBacon consultant. I helped Crispy Bacon's team refactoring part of a Angular Web Application integrating new apis refacted as micro services"
+        },
+        {
+          "label": "From June 2023 to December 2024",
           "title": "Esis - Atum",
           "description": "I'm working for the Esis group as a consultant at Atum."
         },
